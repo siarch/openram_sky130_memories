@@ -62,6 +62,25 @@ git st
 git lg
 ```
 
+### Probe or recover area-related data
+
+```bash
+python scripts/remote_probe_real_area_single.py
+python scripts/resume_last_real_area_after_reboot.py
+```
+
+### Refresh the full delivery package
+
+```bash
+python scripts/refresh_full_delivery_package.py
+```
+
+### Monitor progress logs
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\monitor_real_area_progress.ps1
+```
+
 ### Validate local Python syntax
 
 ```bash
@@ -78,6 +97,12 @@ python -c "from pathlib import Path; import yaml; [yaml.safe_load(p.read_text(en
 
 ```bash
 for file in scripts/*.sh; do bash -n "$file"; done
+```
+
+### Review documentation and policy files
+
+```bash
+markdownlint README.md CONTRIBUTING.md SECURITY.md SUPPORT.md .github/**/*.md
 ```
 
 ## Typical Workflow
