@@ -1,0 +1,229 @@
+{
+  "root": "/Sky130_memory",
+  "version": "v20260612_1r1w",
+  "generated_at": "2026-06-12T12:58:06.156184Z",
+  "group": "sky130mem",
+  "memories": [
+    {
+      "id": "sky130_sram_128bytes_1r1w_16x64",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_128bytes_1r1w_16x64",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64.html",
+      "library_name": "sky130_sram_128bytes_1r1w_16x64_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_128bytes_1r1w_32x32",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_128bytes_1r1w_32x32",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32.html",
+      "library_name": "sky130_sram_128bytes_1r1w_32x32_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_128bytes_1r1w_8x128",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_128bytes_1r1w_8x128",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.html",
+      "library_name": "sky130_sram_128bytes_1r1w_8x128_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_16kbytes_1r1w_16x8192",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.html",
+      "library_name": "sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_1kbytes_1r1w_16x512",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_1kbytes_1r1w_16x512",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512.html",
+      "library_name": "sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_2144bytes_1r1w_134x128",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_2144bytes_1r1w_134x128",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.html",
+      "library_name": "sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_256bytes_1r1w_16x128",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_256bytes_1r1w_16x128",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128.html",
+      "library_name": "sky130_sram_256bytes_1r1w_16x128_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_256bytes_1r1w_8x256",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_256bytes_1r1w_8x256",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256.html",
+      "library_name": "sky130_sram_256bytes_1r1w_8x256_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_4096bytes_1r1w_256x128",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_4096bytes_1r1w_256x128",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128.html",
+      "library_name": "sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_48bytes_1r1w_6x128",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_48bytes_1r1w_6x128",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128.html",
+      "library_name": "sky130_sram_48bytes_1r1w_6x128_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_512bytes_1r1w_16x256",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_512bytes_1r1w_16x256",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256.html",
+      "library_name": "sky130_sram_512bytes_1r1w_16x256_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_512bytes_1r1w_32x128",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_512bytes_1r1w_32x128",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128.html",
+      "library_name": "sky130_sram_512bytes_1r1w_32x128_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    },
+    {
+      "id": "sky130_sram_96bytes_1r1w_24x128",
+      "work_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_96bytes_1r1w_24x128",
+      "verilog": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.v",
+      "lib": "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.lib",
+      "lef": "",
+      "spice": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.sp",
+      "html": "/Sky130_memory/outputs/verdi/v20260612_1r1w/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.html",
+      "library_name": "sky130_sram_96bytes_1r1w_24x128_TT_1p8V_25C_lib",
+      "issues": [
+        "missing_lef"
+      ],
+      "smoke": {
+        "dc_shell_read_lib_rc": 0,
+        "genus_read_lib_rc": 0
+      }
+    }
+  ]
+}

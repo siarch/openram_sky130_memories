@@ -1,0 +1,22 @@
+{
+  "root": "/Sky130_memory",
+  "version": "v20260612_1r1w",
+  "openram_root": "/Sky130_memory/src/OpenRAM-stable",
+  "pdk_root": "/Sky130_memory/pdk",
+  "offline": false,
+  "compile_scripts": [
+    "/Sky130_memory/scripts/compile/sky130_sram_128bytes_1r1w_16x64.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_256bytes_1r1w_16x128.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_512bytes_1r1w_16x256.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_1kbytes_1r1w_16x512.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_16kbytes_1r1w_16x8192.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_48bytes_1r1w_6x128.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_128bytes_1r1w_8x128.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_256bytes_1r1w_8x256.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_96bytes_1r1w_24x128.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_128bytes_1r1w_32x32.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_512bytes_1r1w_32x128.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_2144bytes_1r1w_134x128.sh",
+    "/Sky130_memory/scripts/compile/sky130_sram_4096bytes_1r1w_256x128.sh"
+  ]
+}

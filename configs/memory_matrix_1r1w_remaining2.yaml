@@ -1,0 +1,13 @@
+memories:
+  - id: sky130_sram_96bytes_1r1w_24x128
+    kind: openram
+    ports: 1r1w
+    word_size: 24
+    words: 128
+    write_size: 24
+  - id: sky130_sram_4096bytes_1r1w_256x128
+    kind: openram
+    ports: 1r1w
+    word_size: 256
+    words: 128
+    write_size: 256

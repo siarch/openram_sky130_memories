@@ -1,0 +1,382 @@
+START=2026-06-10T16:23:49+08:00
+MEM_ID=sky130_sram_1kbyte_1rw_32x256_8
+CFG=/Sky130_memory/work/openram_configs/sky130_sram_1kbyte_1rw_32x256_8.py
+OUT_DIR=/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8
+WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+|==============================================================================|
+|=========                      OpenRAM v1.2.49                       =========|
+|=========                                                            =========|
+|=========               VLSI Design and Automation Lab               =========|
+|=========        Computer Science and Engineering Department         =========|
+|=========            University of California Santa Cruz             =========|
+|=========                                                            =========|
+|=========          Usage help: openram-user-group@ucsc.edu           =========|
+|=========        Development help: openram-dev-group@ucsc.edu        =========|
+|=========                See LICENSE for license info                =========|
+|==============================================================================|
+** Start: 06/10/2026 16:23:51
+Technology: sky130
+Total size: 8192 bits
+Word size: 32
+Words: 256
+Banks: 1
+Write size: 8
+RW ports: 1
+R-only ports: 0
+W-only ports: 0
+Netlist only mode (no physical design is being done, netlist_only=False to disable).
+Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+Only generating nominal corner timing.
+Words per row: None
+Output files are: 
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.lvs
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.sp
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.v
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.lib
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.py
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.html
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.log
+** Submodules: 2.9 seconds
+** SRAM creation: 2.9 seconds
+SP: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.sp
+** Spice writing: 0.3 seconds
+DELAY: Writing stimulus...
+** DELAY: 1.5 seconds
+LVS: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.lvs.sp
+** LVS writing: 0.3 seconds
+LIB: Characterizing... 
+fatal: not a git repository (or any of the parent directories): .git
+WARNING: file lib.py: line 778: Failed to retrieve git id
+** Characterization: 1.6 seconds
+Config: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.py
+** Config: 0.0 seconds
+Datasheet: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.html
+** Datasheet: 0.0 seconds
+Verilog: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.v
+** Verilog: 0.0 seconds
+** End: 7.0 seconds
+END=2026-06-10T16:23:59+08:00
+ELAPSED_SEC=10
+START=2026-06-10T16:23:59+08:00
+MEM_ID=sky130_sram_2kbyte_1rw_32x512_8
+CFG=/Sky130_memory/work/openram_configs/sky130_sram_2kbyte_1rw_32x512_8.py
+OUT_DIR=/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8
+WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+|==============================================================================|
+|=========                      OpenRAM v1.2.49                       =========|
+|=========                                                            =========|
+|=========               VLSI Design and Automation Lab               =========|
+|=========        Computer Science and Engineering Department         =========|
+|=========            University of California Santa Cruz             =========|
+|=========                                                            =========|
+|=========          Usage help: openram-user-group@ucsc.edu           =========|
+|=========        Development help: openram-dev-group@ucsc.edu        =========|
+|=========                See LICENSE for license info                =========|
+|==============================================================================|
+** Start: 06/10/2026 16:24:01
+Technology: sky130
+Total size: 16384 bits
+Word size: 32
+Words: 512
+Banks: 1
+Write size: 8
+RW ports: 1
+R-only ports: 0
+W-only ports: 0
+Netlist only mode (no physical design is being done, netlist_only=False to disable).
+Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+Only generating nominal corner timing.
+Words per row: None
+Output files are: 
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.lvs
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.sp
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.v
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.lib
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.py
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.html
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.log
+** Submodules: 6.4 seconds
+** SRAM creation: 6.4 seconds
+SP: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.sp
+** Spice writing: 0.7 seconds
+DELAY: Writing stimulus...
+** DELAY: 2.9 seconds
+LVS: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.lvs.sp
+** LVS writing: 0.5 seconds
+LIB: Characterizing... 
+fatal: not a git repository (or any of the parent directories): .git
+WARNING: file lib.py: line 778: Failed to retrieve git id
+** Characterization: 3.3 seconds
+Config: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.py
+** Config: 0.0 seconds
+Datasheet: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.html
+** Datasheet: 0.0 seconds
+Verilog: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.v
+** Verilog: 0.0 seconds
+** End: 14.5 seconds
+END=2026-06-10T16:24:17+08:00
+ELAPSED_SEC=18
+START=2026-06-10T16:24:17+08:00
+MEM_ID=sky130_sram_4kbyte_1rw_32x1024_8
+CFG=/Sky130_memory/work/openram_configs/sky130_sram_4kbyte_1rw_32x1024_8.py
+OUT_DIR=/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8
+WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+|==============================================================================|
+|=========                      OpenRAM v1.2.49                       =========|
+|=========                                                            =========|
+|=========               VLSI Design and Automation Lab               =========|
+|=========        Computer Science and Engineering Department         =========|
+|=========            University of California Santa Cruz             =========|
+|=========                                                            =========|
+|=========          Usage help: openram-user-group@ucsc.edu           =========|
+|=========        Development help: openram-dev-group@ucsc.edu        =========|
+|=========                See LICENSE for license info                =========|
+|==============================================================================|
+** Start: 06/10/2026 16:24:20
+Technology: sky130
+Total size: 32768 bits
+Word size: 32
+Words: 1024
+Banks: 1
+Write size: 8
+RW ports: 1
+R-only ports: 0
+W-only ports: 0
+Netlist only mode (no physical design is being done, netlist_only=False to disable).
+Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+Only generating nominal corner timing.
+Words per row: None
+Output files are: 
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.lvs
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.sp
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.v
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.lib
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.py
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.html
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.log
+** Submodules: 14.0 seconds
+** SRAM creation: 14.0 seconds
+SP: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.sp
+** Spice writing: 1.0 seconds
+DELAY: Writing stimulus...
+** DELAY: 5.3 seconds
+LVS: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.lvs.sp
+** LVS writing: 0.9 seconds
+LIB: Characterizing... 
+fatal: not a git repository (or any of the parent directories): .git
+WARNING: file lib.py: line 778: Failed to retrieve git id
+** Characterization: 5.8 seconds
+Config: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.py
+** Config: 0.0 seconds
+Datasheet: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.html
+** Datasheet: 0.0 seconds
+Verilog: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.v
+** Verilog: 0.0 seconds
+** End: 28.1 seconds
+END=2026-06-10T16:24:51+08:00
+ELAPSED_SEC=34
+START=2026-06-10T16:24:51+08:00
+MEM_ID=sky130_sram_4kbyte_1rw_64x512_8
+CFG=/Sky130_memory/work/openram_configs/sky130_sram_4kbyte_1rw_64x512_8.py
+OUT_DIR=/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8
+WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+|==============================================================================|
+|=========                      OpenRAM v1.2.49                       =========|
+|=========                                                            =========|
+|=========               VLSI Design and Automation Lab               =========|
+|=========        Computer Science and Engineering Department         =========|
+|=========            University of California Santa Cruz             =========|
+|=========                                                            =========|
+|=========          Usage help: openram-user-group@ucsc.edu           =========|
+|=========        Development help: openram-dev-group@ucsc.edu        =========|
+|=========                See LICENSE for license info                =========|
+|==============================================================================|
+** Start: 06/10/2026 16:24:53
+Technology: sky130
+Total size: 32768 bits
+Word size: 64
+Words: 512
+Banks: 1
+Write size: 8
+RW ports: 1
+R-only ports: 0
+W-only ports: 0
+Netlist only mode (no physical design is being done, netlist_only=False to disable).
+Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+Only generating nominal corner timing.
+Words per row: None
+Output files are: 
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.lvs
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.sp
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.v
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.lib
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.py
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.html
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.log
+** Submodules: 14.1 seconds
+** SRAM creation: 14.1 seconds
+SP: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.sp
+** Spice writing: 1.2 seconds
+DELAY: Writing stimulus...
+** DELAY: 5.3 seconds
+LVS: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.lvs.sp
+** LVS writing: 1.0 seconds
+LIB: Characterizing... 
+fatal: not a git repository (or any of the parent directories): .git
+WARNING: file lib.py: line 778: Failed to retrieve git id
+** Characterization: 6.2 seconds
+Config: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.py
+** Config: 0.0 seconds
+Datasheet: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.html
+** Datasheet: 0.0 seconds
+Verilog: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.v
+** Verilog: 0.0 seconds
+** End: 28.9 seconds
+END=2026-06-10T16:25:25+08:00
+ELAPSED_SEC=34
+START=2026-06-10T16:25:25+08:00
+MEM_ID=sky130_sram_8kbyte_1rw_32x2048_8
+CFG=/Sky130_memory/work/openram_configs/sky130_sram_8kbyte_1rw_32x2048_8.py
+OUT_DIR=/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8
+WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+|==============================================================================|
+|=========                      OpenRAM v1.2.49                       =========|
+|=========                                                            =========|
+|=========               VLSI Design and Automation Lab               =========|
+|=========        Computer Science and Engineering Department         =========|
+|=========            University of California Santa Cruz             =========|
+|=========                                                            =========|
+|=========          Usage help: openram-user-group@ucsc.edu           =========|
+|=========        Development help: openram-dev-group@ucsc.edu        =========|
+|=========                See LICENSE for license info                =========|
+|==============================================================================|
+** Start: 06/10/2026 16:25:27
+Technology: sky130
+Total size: 65536 bits
+Word size: 32
+Words: 2048
+Banks: 1
+Write size: 8
+RW ports: 1
+R-only ports: 0
+W-only ports: 0
+Netlist only mode (no physical design is being done, netlist_only=False to disable).
+Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+Only generating nominal corner timing.
+Words per row: None
+Output files are: 
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.lvs
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.sp
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.v
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.lib
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.py
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.html
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.log
+** Submodules: 29.5 seconds
+** SRAM creation: 29.5 seconds
+SP: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.sp
+** Spice writing: 2.1 seconds
+DELAY: Writing stimulus...
+** DELAY: 10.3 seconds
+LVS: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.lvs.sp
+** LVS writing: 1.8 seconds
+LIB: Characterizing... 
+fatal: not a git repository (or any of the parent directories): .git
+WARNING: file lib.py: line 778: Failed to retrieve git id
+** Characterization: 12.3 seconds
+Config: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.py
+** Config: 0.0 seconds
+Datasheet: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.html
+** Datasheet: 0.0 seconds
+Verilog: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.v
+** Verilog: 0.0 seconds
+** End: 57.8 seconds
+END=2026-06-10T16:26:30+08:00
+ELAPSED_SEC=65
+START=2026-06-10T16:26:30+08:00
+MEM_ID=sky130_sram_16kbyte_1rw_32x4096_8
+CFG=/Sky130_memory/work/openram_configs/sky130_sram_16kbyte_1rw_32x4096_8.py
+OUT_DIR=/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8
+WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+|==============================================================================|
+|=========                      OpenRAM v1.2.49                       =========|
+|=========                                                            =========|
+|=========               VLSI Design and Automation Lab               =========|
+|=========        Computer Science and Engineering Department         =========|
+|=========            University of California Santa Cruz             =========|
+|=========                                                            =========|
+|=========          Usage help: openram-user-group@ucsc.edu           =========|
+|=========        Development help: openram-dev-group@ucsc.edu        =========|
+|=========                See LICENSE for license info                =========|
+|==============================================================================|
+** Start: 06/10/2026 16:26:33
+Technology: sky130
+Total size: 131072 bits
+Word size: 32
+Words: 4096
+Banks: 1
+Write size: 8
+RW ports: 1
+R-only ports: 0
+W-only ports: 0
+Netlist only mode (no physical design is being done, netlist_only=False to disable).
+Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+Only generating nominal corner timing.
+Words per row: None
+Output files are: 
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.lvs
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.sp
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.v
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.lib
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.py
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.html
+/Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.log
+** Submodules: 81.8 seconds
+** SRAM creation: 81.8 seconds
+SP: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.sp
+** Spice writing: 3.6 seconds
+DELAY: Writing stimulus...
+** DELAY: 21.3 seconds
+LVS: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.lvs.sp
+** LVS writing: 3.9 seconds
+LIB: Characterizing... 
+fatal: not a git repository (or any of the parent directories): .git
+WARNING: file lib.py: line 778: Failed to retrieve git id
+** Characterization: 24.0 seconds
+Config: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.py
+** Config: 0.0 seconds
+Datasheet: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.html
+** Datasheet: 0.0 seconds
+Verilog: Writing to /Sky130_memory/work/openram_builds/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.v
+** Verilog: 0.0 seconds
+** End: 138.2 seconds
+END=2026-06-10T16:29:01+08:00
+ELAPSED_SEC=151
+Traceback (most recent call last):
+  File "/Sky130_memory/scripts/postprocess_and_report.py", line 226, in <module>
+    main()
+  File "/Sky130_memory/scripts/postprocess_and_report.py", line 102, in main
+    shutil.copy2(paths["lib"], dc_dir / f"{tag}.lib")
+  File "/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/lib/python3.8/shutil.py", line 435, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/lib/python3.8/shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: '/Sky130_memory/outputs/dc/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.lib'

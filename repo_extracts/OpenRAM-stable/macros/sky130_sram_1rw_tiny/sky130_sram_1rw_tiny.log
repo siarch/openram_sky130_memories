@@ -1,0 +1,63 @@
+[2026-06-10 07:24:06.219295] |==============================================================================|
+[2026-06-10 07:24:06.222929] |=========                      OpenRAM v1.2.49                       =========|
+[2026-06-10 07:24:06.225004] |=========                                                            =========|
+[2026-06-10 07:24:06.227362] |=========               VLSI Design and Automation Lab               =========|
+[2026-06-10 07:24:06.229813] |=========        Computer Science and Engineering Department         =========|
+[2026-06-10 07:24:06.232470] |=========            University of California Santa Cruz             =========|
+[2026-06-10 07:24:06.234834] |=========                                                            =========|
+[2026-06-10 07:24:06.237260] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2026-06-10 07:24:06.239563] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2026-06-10 07:24:06.241639] |=========                See LICENSE for license info                =========|
+[2026-06-10 07:24:06.243805] |==============================================================================|
+[2026-06-10 07:24:06.245936] ** Start: 06/10/2026 07:24:06
+[2026-06-10 07:24:06.248241] Technology: sky130
+[2026-06-10 07:24:06.250472] Total size: 128 bits
+[2026-06-10 07:24:06.252638] Word size: 8
+Words: 16
+Banks: 1
+[2026-06-10 07:24:06.254531] Write size: 2
+[2026-06-10 07:24:06.256597] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2026-06-10 07:24:06.258823] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2026-06-10 07:24:06.261016] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2026-06-10 07:24:06.262829] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2026-06-10 07:24:06.264806] Only generating nominal corner timing.
+[2026-06-10 07:24:06.266636] Words per row: None
+[2026-06-10 07:24:06.268557] Output files are: 
+[2026-06-10 07:24:06.270503] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.lvs
+[2026-06-10 07:24:06.272461] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.sp
+[2026-06-10 07:24:06.274653] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.v
+[2026-06-10 07:24:06.290071] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.lib
+[2026-06-10 07:24:06.293252] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.py
+[2026-06-10 07:24:06.295448] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.html
+[2026-06-10 07:24:06.297751] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.log
+[2026-06-10 07:24:06.299831] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.lef
+[2026-06-10 07:24:06.301955] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.gds
+[2026-06-10 07:24:09.450951] ** Submodules: 3.0 seconds
+[2026-06-10 07:24:09.473033] ** Placement: 0.0 seconds
+[2026-06-10 07:24:40.264200] ** Routing: 30.8 seconds
+[2026-06-10 07:24:40.283555] ** Verification: 0.0 seconds
+[2026-06-10 07:24:40.285731] ** SRAM creation: 33.8 seconds
+[2026-06-10 07:24:40.287671] SP: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.sp
+[2026-06-10 07:24:40.337611] ** Spice writing: 0.0 seconds
+[2026-06-10 07:24:40.339566] DELAY: Writing stimulus...
+[2026-06-10 07:24:40.543547] ** DELAY: 0.2 seconds
+[2026-06-10 07:24:40.558245] GDS: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.gds
+[2026-06-10 07:24:40.692293] ** GDS: 0.1 seconds
+[2026-06-10 07:24:40.694083] LEF: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.lef
+[2026-06-10 07:24:40.702761] ** LEF: 0.0 seconds
+[2026-06-10 07:24:40.704623] LVS: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.lvs.sp
+[2026-06-10 07:24:40.718817] ** LVS writing: 0.0 seconds
+[2026-06-10 07:24:40.720850] LIB: Characterizing... 
+[2026-06-10 07:24:41.587189] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-10 07:24:41.589863] ** Characterization: 0.9 seconds
+[2026-06-10 07:24:41.598903] Config: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.py
+[2026-06-10 07:24:41.600687] ** Config: 0.0 seconds
+[2026-06-10 07:24:41.674716] Datasheet: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.html
+[2026-06-10 07:24:41.690515] ** Datasheet: 0.1 seconds
+[2026-06-10 07:24:41.692342] Verilog: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_1rw_tiny/sky130_sram_1rw_tiny.v
+[2026-06-10 07:24:41.696227] ** Verilog: 0.0 seconds
+[2026-06-10 07:24:41.705478] [openram.globals/cleanup_paths]: Preserving temp directory: /tmp/openram_root_12463_temp/
+[2026-06-10 07:24:41.707384] ** End: 35.5 seconds

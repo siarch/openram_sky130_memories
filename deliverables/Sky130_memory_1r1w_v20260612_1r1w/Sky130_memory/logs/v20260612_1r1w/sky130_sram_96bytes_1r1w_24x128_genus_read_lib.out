@@ -1,0 +1,59 @@
+TMPDIR is being set to /tmp/genus_temp_23258_a4d50d95-7b14-4f2b-ad6f-48605a96d39e_eda.ic_ryan_H1OkU4
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[20:57:48.280529] Configured Lic search path (23.02-s006): 5280@eda.ic
+
+Version: 23.14-s090_1, built Wed Feb 26 18:49:50 PST 2025
+Options: -batch -files /Sky130_memory/logs/v20260612_1r1w/sky130_sram_96bytes_1r1w_24x128_genus_read_lib.tcl 
+Date:    Fri Jun 12 20:57:48 2026
+Host:    eda.ic (x86_64 w/Linux 4.18.0-553.78.1.el8_10.x86_64) (6cores*6cpus*1physical cpu*AMD Ryzen 7 5700G with Radeon Graphics 512KB) (40879768KB)
+PID:     23258
+OS:      Red Hat Enterprise Linux 8.10 (Ootpa)
+
+Checking out license: Genus_Synthesis
+[20:57:48.289635] Periodic Lic check successful
+[20:57:48.289647] Feature usage summary:
+[20:57:48.289647] Genus_Synthesis
+
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Finished executable startup (1 second elapsed).
+
+Loading tool scripts...
+Finished loading tool scripts (16 seconds elapsed).
+
+#@ Processing -files option
+@genus:root: 1> source /Sky130_memory/logs/v20260612_1r1w/sky130_sram_96bytes_1r1w_24x128_genus_read_lib.tcl
+#@ Begin verbose source /Sky130_memory/logs/v20260612_1r1w/sky130_sram_96bytes_1r1w_24x128_genus_read_lib.tcl
+@file(sky130_sram_96bytes_1r1w_24x128_genus_read_lib.tcl) 1: read_libs "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.lib"
+
+  Message Summary for Library sky130_sram_96bytes_1r1w_24x128.lib:
+  ****************************************************************
+  Missing library level attribute. [LBR-516]: 1
+  An unsupported construct was detected in this library. [LBR-40]: 2
+  ****************************************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.800000, 25.000000) in library 'sky130_sram_96bytes_1r1w_24x128.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'sky130_sram_96bytes_1r1w_24x128_TT_1p8V_25C_lib/sky130_sram_96bytes_1r1w_24x128'.
+        : Specify a valid area value for the libcell.
+@file(sky130_sram_96bytes_1r1w_24x128_genus_read_lib.tcl) 2: report_libs
+Error: The command report_libs has not been licensed at startup time. Please launch genus using option -lic_startup_options Joules_RTL_Power.
+@file(sky130_sram_96bytes_1r1w_24x128_genus_read_lib.tcl) 3: exit
+
+Lic Summary:
+[20:58:05.001200] cdslmd servers: eda
+[20:58:05.016544] Feature usage summary:
+[20:58:05.508279]   Genus_Synthesis  
+
+Normal exit.

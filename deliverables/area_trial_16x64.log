@@ -1,0 +1,65 @@
+[2026-06-12 23:12:18.156374] WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+
+[2026-06-12 23:12:19.456697] [openram.globals/setup_bitcell]: Using bitcell: bitcell_2port
+[2026-06-12 23:12:19.481699] [openram.sram_config/recompute_sizes]: Recomputing with words per row: 2
+[2026-06-12 23:12:19.481992] [openram.sram_config/recompute_sizes]: Rows: 32 Cols: 32
+[2026-06-12 23:12:19.482208] [openram.sram_config/recompute_sizes]: Row addr size: 5 Col addr size: 1 Bank addr size: 6
+[2026-06-12 23:12:19.482383] [openram.sram_config/compute_sizes]: Set SRAM Words Per Row=2
+[2026-06-12 23:12:19.482826] [openram.sram_config/recompute_sizes]: Recomputing with words per row: 2
+[2026-06-12 23:12:19.482987] [openram.sram_config/recompute_sizes]: Rows: 32 Cols: 32
+[2026-06-12 23:12:19.483130] [openram.sram_config/recompute_sizes]: Row addr size: 5 Col addr size: 1 Bank addr size: 6
+[2026-06-12 23:12:19.573068] [openram.modules.bitcell_base_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_capped_replica_bitcell_array 32 x 32
+[2026-06-12 23:12:19.573554] [openram.modules.capped_replica_bitcell_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_capped_replica_bitcell_array 32 x 32 rbls: [1, 1] left_rbl: [0] right_rbl: [1]
+[2026-06-12 23:12:19.574933] [openram.modules.bitcell_base_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_replica_bitcell_array 32 x 32
+[2026-06-12 23:12:19.575534] [openram.modules.replica_bitcell_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_replica_bitcell_array 32 x 32 rbls: [1, 1] left_rbl: [0] right_rbl: [1]
+[2026-06-12 23:12:19.576763] [openram.modules.bitcell_base_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_bitcell_array 32 x 32
+[2026-06-12 23:12:19.577289] [openram.modules.bitcell_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_bitcell_array 32 x 32
+[2026-06-12 23:12:20.031328] [openram.modules.bitcell_base_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_replica_column 34 x 1
+[2026-06-12 23:12:20.031873] [openram.modules.replica_column/__init__]: replica_column constraint check rows=32 left_rbl=1 right_rbl=1 replica_bit=0 netlist_only=False total_size=34
+[2026-06-12 23:12:20.079386] [openram.modules.replica_column/create_layout]: replica_column layout size width=3.12 height=67.15 total_size=34 column_offset=1
+[2026-06-12 23:12:20.093057] [openram.modules.bitcell_base_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_replica_column_0 34 x 1
+[2026-06-12 23:12:20.093695] [openram.modules.replica_column/__init__]: replica_column constraint check rows=32 left_rbl=1 right_rbl=1 replica_bit=33 netlist_only=False total_size=34
+[2026-06-12 23:12:20.100030] [openram.modules.replica_column/create_layout]: replica_column layout size width=3.12 height=67.15 total_size=34 column_offset=34
+[2026-06-12 23:12:20.112777] [openram.modules.bitcell_base_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_dummy_array 1 x 32
+[2026-06-12 23:12:20.390778] [openram.modules.bitcell_base_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_col_cap_array 1 x 34
+[2026-06-12 23:12:20.411743] [openram.modules.bitcell_base_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_col_cap_array_0 1 x 34
+[2026-06-12 23:12:20.430332] [openram.modules.bitcell_base_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_row_cap_array 34 x 1
+[2026-06-12 23:12:20.448695] [openram.modules.bitcell_base_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_row_cap_array_0 34 x 1
+[2026-06-12 23:12:20.586472] [openram.modules.and2_dec/__init__]: Creating and2_dec and2_dec
+[2026-06-12 23:12:20.598001] [openram.modules.and3_dec/__init__]: Creating and3_dec and3_dec
+[2026-06-12 23:12:20.634216] [openram.modules.and4_dec/__init__]: Creating and4_dec and4_dec
+[2026-06-12 23:12:20.743379] [openram.modules.wordline_driver_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_wordline_driver_array
+[2026-06-12 23:12:20.744002] [openram.modules.wordline_driver/__init__]: Creating wordline_driver wordline_driver
+[2026-06-12 23:12:20.808909] [openram.modules.and2_dec/__init__]: Creating and2_dec and2_dec_0
+[2026-06-12 23:12:20.927098] [openram.modules.precharge_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_precharge_array
+[2026-06-12 23:12:20.959542] [openram.modules.column_mux_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_column_mux_array
+[2026-06-12 23:12:21.026842] [openram.modules.write_driver_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_write_driver_array
+[2026-06-12 23:12:21.101659] [openram.modules.precharge_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_precharge_array_0
+[2026-06-12 23:12:21.133641] [openram.modules.sense_amp_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_sense_amp_array
+[2026-06-12 23:12:21.166421] [openram.modules.column_mux_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_column_mux_array_0
+[2026-06-12 23:12:21.279431] [openram.modules.pinvbuf/__init__]: creating pinvbuf pinvbuf
+[2026-06-12 23:12:21.488417] [openram.modules.dff_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_row_addr_dff rows=5 cols=1
+[2026-06-12 23:12:21.495572] [openram.modules.dff_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_col_addr_dff rows=1 cols=1
+[2026-06-12 23:12:21.497421] [openram.modules.dff_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_data_dff rows=1 cols=16
+[2026-06-12 23:12:21.509536] [openram.modules.control_logic_base/__init__]: Creating control_logic_w
+[2026-06-12 23:12:21.510203] [openram.modules.dff_buf/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_dff_buf
+[2026-06-12 23:12:21.513141] [openram.modules.dff_buf_array/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_dff_buf_array
+[2026-06-12 23:12:21.513755] [openram.modules.dff_buf/__init__]: Creating sky130_sram_128bytes_1r1w_16x64_16_dff_buf_0
+[2026-06-12 23:12:21.519268] [openram.modules.pand2/__init__]: Creating pand2 pand2
+[2026-06-12 23:12:21.525039] [openram.modules.pdriver/__init__]: creating pdriver pdriver
+[2026-06-12 23:12:21.534735] [openram.modules.pbuf/__init__]: creating pbuf with size of 32
+[2026-06-12 23:12:21.553957] [openram.modules.pdriver/__init__]: creating pdriver pdriver_0
+[2026-06-12 23:12:21.590039] [openram.modules.pdriver/__init__]: creating pdriver pdriver_1
+[2026-06-12 23:12:21.602820] [openram.modules.pand3/__init__]: Creating pand3 pand3
+[2026-06-12 23:12:21.608822] [openram.modules.pdriver/__init__]: creating pdriver pdriver_2
+[2026-06-12 23:12:21.620557] [openram.modules.pand3/__init__]: Creating pand3 pand3_0
+[2026-06-12 23:12:21.621192] [openram.modules.pdriver/__init__]: creating pdriver pdriver_3
+[2026-06-12 23:12:21.632237] [openram.modules.pdriver/__init__]: creating pdriver pdriver_4
+[2026-06-12 23:12:21.643512] [openram.modules.delay_chain/__init__]: creating delay chain [4, 4, 4, 4, 4, 4, 4, 4, 4]
+[2026-06-12 23:12:21.701056] [openram.modules.control_logic_base/__init__]: Creating control_logic_r
+[2026-06-12 23:12:46.863958] [openram.base.hierarchy_layout/get_bbox]: Size: 334.38 x 174.02 with perimeter margin 0
+[2026-06-12 23:12:46.891680] [openram.router.router_tech/__init__]: Minimum track width: 0.680
+[2026-06-12 23:12:46.892171] [openram.router.router_tech/__init__]: Minimum track space: 0.300
+[2026-06-12 23:12:46.892476] [openram.router.router_tech/__init__]: Minimum track wire width: 0.380
+[2026-06-12 23:12:46.892755] [openram.router.signal_escape_router/route]: Running signal escape router...
+[2026-06-12 23:13:25.333272] [openram.globals/purge_temp]: Purging temp directory: /tmp/openram_ryan_55471_temp/

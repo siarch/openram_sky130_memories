@@ -1,0 +1,1166 @@
+{
+  "version": "v20260612_1r1w_full",
+  "memories": [
+    {
+      "memory_id": "sky130_sram_128bytes_1r1w_16x64",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_128bytes_1r1w_16x64",
+          "attempt": 1,
+          "rc": 0,
+          "mode": "spice",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64.attempt1.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        },
+        {
+          "memory_id": "sky130_sram_128bytes_1r1w_16x64",
+          "attempt": 1,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64.attempt1.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        },
+        {
+          "memory_id": "sky130_sram_128bytes_1r1w_16x64",
+          "attempt": 2,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64.attempt2.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        },
+        {
+          "memory_id": "sky130_sram_128bytes_1r1w_16x64",
+          "attempt": 3,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64.attempt3.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_128bytes_1r1w_32x32",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_128bytes_1r1w_32x32",
+          "attempt": 1,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32.attempt1.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_128bytes_1r1w_32x32",
+          "attempt": 2,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32.attempt2.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_128bytes_1r1w_32x32",
+          "attempt": 3,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32.attempt3.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_128bytes_1r1w_8x128",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_128bytes_1r1w_8x128",
+          "attempt": 1,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128.attempt1.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_128bytes_1r1w_8x128",
+          "attempt": 2,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128.attempt2.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_128bytes_1r1w_8x128",
+          "attempt": 3,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128.attempt3.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_16kbytes_1r1w_16x8192",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_16kbytes_1r1w_16x8192",
+          "attempt": 1,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192.attempt1.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        },
+        {
+          "memory_id": "sky130_sram_16kbytes_1r1w_16x8192",
+          "attempt": 2,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192.attempt2.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        },
+        {
+          "memory_id": "sky130_sram_16kbytes_1r1w_16x8192",
+          "attempt": 3,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192.attempt3.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_1kbytes_1r1w_16x512",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_1kbytes_1r1w_16x512",
+          "attempt": 1,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512.attempt1.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        },
+        {
+          "memory_id": "sky130_sram_1kbytes_1r1w_16x512",
+          "attempt": 2,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512.attempt2.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        },
+        {
+          "memory_id": "sky130_sram_1kbytes_1r1w_16x512",
+          "attempt": 3,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512.attempt3.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_2144bytes_1r1w_134x128",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_2144bytes_1r1w_134x128",
+          "attempt": 1,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128.attempt1.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_2144bytes_1r1w_134x128",
+          "attempt": 2,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128.attempt2.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_2144bytes_1r1w_134x128",
+          "attempt": 3,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128.attempt3.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_256bytes_1r1w_16x128",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_256bytes_1r1w_16x128",
+          "attempt": 1,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128.attempt1.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        },
+        {
+          "memory_id": "sky130_sram_256bytes_1r1w_16x128",
+          "attempt": 2,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128.attempt2.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        },
+        {
+          "memory_id": "sky130_sram_256bytes_1r1w_16x128",
+          "attempt": 3,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128.attempt3.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_256bytes_1r1w_8x256",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_256bytes_1r1w_8x256",
+          "attempt": 1,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256.attempt1.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_256bytes_1r1w_8x256",
+          "attempt": 2,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256.attempt2.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_256bytes_1r1w_8x256",
+          "attempt": 3,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256.attempt3.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_4096bytes_1r1w_256x128",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_4096bytes_1r1w_256x128",
+          "attempt": 1,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128.attempt1.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_4096bytes_1r1w_256x128",
+          "attempt": 2,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128.attempt2.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_4096bytes_1r1w_256x128",
+          "attempt": 3,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128.attempt3.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_48bytes_1r1w_6x128",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_48bytes_1r1w_6x128",
+          "attempt": 1,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128.attempt1.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_48bytes_1r1w_6x128",
+          "attempt": 2,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128.attempt2.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_48bytes_1r1w_6x128",
+          "attempt": 3,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128.attempt3.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_512bytes_1r1w_16x256",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_512bytes_1r1w_16x256",
+          "attempt": 1,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256.attempt1.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        },
+        {
+          "memory_id": "sky130_sram_512bytes_1r1w_16x256",
+          "attempt": 2,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256.attempt2.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        },
+        {
+          "memory_id": "sky130_sram_512bytes_1r1w_16x256",
+          "attempt": 3,
+          "rc": 1,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256.attempt3.log",
+          "views": {
+            "lib": 0,
+            "verilog": 0,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 0,
+            "lvs_sp": 0,
+            "html": 0
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_512bytes_1r1w_32x128",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_512bytes_1r1w_32x128",
+          "attempt": 1,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128.attempt1.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_512bytes_1r1w_32x128",
+          "attempt": 2,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128.attempt2.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_512bytes_1r1w_32x128",
+          "attempt": 3,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128.attempt3.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128.v"
+        ]
+      }
+    },
+    {
+      "memory_id": "sky130_sram_96bytes_1r1w_24x128",
+      "build_dir": "/Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128",
+      "attempts": [
+        {
+          "memory_id": "sky130_sram_96bytes_1r1w_24x128",
+          "attempt": 1,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128.attempt1.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_96bytes_1r1w_24x128",
+          "attempt": 2,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128.attempt2.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        },
+        {
+          "memory_id": "sky130_sram_96bytes_1r1w_24x128",
+          "attempt": 3,
+          "rc": 0,
+          "mode": "analytical",
+          "log_file": "/Sky130_memory/logs/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128.attempt3.log",
+          "views": {
+            "lib": 9,
+            "verilog": 1,
+            "lef": 0,
+            "gds": 0,
+            "def": 0,
+            "sp": 8,
+            "lvs_sp": 1,
+            "html": 1
+          }
+        }
+      ],
+      "copied_outputs": {
+        "libs": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128_FF_1p9V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128_FF_1p9V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128_FF_1p9V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128_SS_1p7V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128_SS_1p7V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128_SS_1p7V_25C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128_TT_1p8V_0C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128_TT_1p8V_100C.lib",
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128_TT_1p8V_25C.lib"
+        ],
+        "verilog": [
+          "/Sky130_memory/outputs/design_compiler/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.v"
+        ],
+        "spice": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.sp"
+        ],
+        "lef": [],
+        "gds": [],
+        "def": [],
+        "html": [
+          "/Sky130_memory/outputs/verdi/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.html"
+        ],
+        "lvs_sp": [
+          "/Sky130_memory/outputs/physical_views/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.lvs.sp"
+        ],
+        "vcs_verilog": [
+          "/Sky130_memory/outputs/vcs/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.v"
+        ]
+      }
+    }
+  ]
+}

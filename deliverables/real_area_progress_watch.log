@@ -1,0 +1,560 @@
+﻿===== 2026-06-12 23:58:02 =====
+__REMOTE_TIME__ 2026-06-12 23:57:57
+__PROCS__
+ryan       62269       1  0 23:43 ?        00:00:01 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 23:46 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       62925   62269 97 23:50 ?        00:07:22 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/area_trial.py
+__SUMMARY_COUNT__
+3 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:03:02 =====
+__REMOTE_TIME__ 2026-06-13 00:02:58
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:01 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:04:25 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:08:03 =====
+__REMOTE_TIME__ 2026-06-13 00:07:59
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:01 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:09:18 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:13:04 =====
+__REMOTE_TIME__ 2026-06-13 00:12:59
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:02 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:14:11 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:18:04 =====
+__REMOTE_TIME__ 2026-06-13 00:18:00
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:02 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:19:04 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:23:05 =====
+__REMOTE_TIME__ 2026-06-13 00:23:00
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:03 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:23:57 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:28:05 =====
+__REMOTE_TIME__ 2026-06-13 00:28:01
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:03 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:28:50 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:33:06 =====
+__REMOTE_TIME__ 2026-06-13 00:33:01
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:03 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:33:42 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:38:06 =====
+__REMOTE_TIME__ 2026-06-13 00:38:02
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:04 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:38:35 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:43:07 =====
+__REMOTE_TIME__ 2026-06-13 00:43:02
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:04 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:43:28 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:48:07 =====
+__REMOTE_TIME__ 2026-06-13 00:48:03
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:04 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:48:21 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:53:08 =====
+__REMOTE_TIME__ 2026-06-13 00:53:04
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:05 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:53:14 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 00:58:08 =====
+__REMOTE_TIME__ 2026-06-13 00:58:04
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:05 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       63814   62269 97 Jun12 ?        00:58:07 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/area_trial.py
+__SUMMARY_COUNT__
+4 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "startup", "matrix": "/Sky130_memory/configs/memory_matrix_1r1w_requested.yaml", "matrix_exists": true, "build_root_exists": true, "trial_root": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full"}
+{"phase": "parsed_ids", "count": 13, "first_ids": ["sky130_sram_128bytes_1r1w_16x64", "sky130_sram_256bytes_1r1w_16x128", "sky130_sram_512bytes_1r1w_16x256"]}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.85999999999996, "height_um": 237.22, "area_um2": 79198.2692, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:03:09 =====
+__REMOTE_TIME__ 2026-06-13 01:03:05
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:05 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       67720   62269 97 01:02 ?        00:00:41 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/area_trial.py
+__SUMMARY_COUNT__
+8 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.23340000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512"}
+{"phase": "end_mem", "memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192"}
+{"phase": "end_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192", "status": "ok", "width_um": 1139.82, "height_um": 1311.75, "area_um2": 1495158.885, "rc": 124, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_48bytes_1r1w_6x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_48bytes_1r1w_6x128", "status": "ok", "width_um": 289.1, "height_um": 183.09, "area_um2": 52931.319, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_96bytes_1r1w_6x128_6.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:08:09 =====
+__REMOTE_TIME__ 2026-06-13 01:08:05
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:06 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       67865   62269 97 01:06 ?        00:01:25 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/area_trial.py
+__SUMMARY_COUNT__
+10 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_16kbytes_1r1w_16x8192", "status": "ok", "width_um": 1139.82, "height_um": 1311.75, "area_um2": 1495158.885, "rc": 124, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192_16.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_48bytes_1r1w_6x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_48bytes_1r1w_6x128", "status": "ok", "width_um": 289.1, "height_um": 183.09, "area_um2": 52931.319, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_96bytes_1r1w_6x128_6.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.65999999999997, "height_um": 237.22, "area_um2": 94807.3452, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_384bytes_1r1w_24x128_24.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.756400000006, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:13:10 =====
+__REMOTE_TIME__ 2026-06-13 01:13:06
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:06 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       68002   62269 97 01:10 ?        00:02:41 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/area_trial.py
+__SUMMARY_COUNT__
+11 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_48bytes_1r1w_6x128", "status": "ok", "width_um": 289.1, "height_um": 183.09, "area_um2": 52931.319, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_96bytes_1r1w_6x128_6.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.65999999999997, "height_um": 237.22, "area_um2": 94807.3452, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_384bytes_1r1w_24x128_24.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.756400000006, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128", "status": "ok", "width_um": 464.38, "height_um": 240.825, "area_um2": 111834.31349999999, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:18:10 =====
+__REMOTE_TIME__ 2026-06-13 01:18:06
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:07 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       68002   62269 97 01:10 ?        00:07:33 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/area_trial.py
+__SUMMARY_COUNT__
+11 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_48bytes_1r1w_6x128", "status": "ok", "width_um": 289.1, "height_um": 183.09, "area_um2": 52931.319, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_96bytes_1r1w_6x128_6.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.65999999999997, "height_um": 237.22, "area_um2": 94807.3452, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_384bytes_1r1w_24x128_24.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.756400000006, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128", "status": "ok", "width_um": 464.38, "height_um": 240.825, "area_um2": 111834.31349999999, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:23:11 =====
+__REMOTE_TIME__ 2026-06-13 01:23:07
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:07 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       68002   62269 97 01:10 ?        00:12:27 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/area_trial.py
+__SUMMARY_COUNT__
+11 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_48bytes_1r1w_6x128", "status": "ok", "width_um": 289.1, "height_um": 183.09, "area_um2": 52931.319, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_96bytes_1r1w_6x128_6.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.65999999999997, "height_um": 237.22, "area_um2": 94807.3452, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_384bytes_1r1w_24x128_24.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.756400000006, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128", "status": "ok", "width_um": 464.38, "height_um": 240.825, "area_um2": 111834.31349999999, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:28:11 =====
+__REMOTE_TIME__ 2026-06-13 01:28:07
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:07 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       68002   62269 97 01:10 ?        00:17:20 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/area_trial.py
+__SUMMARY_COUNT__
+11 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_48bytes_1r1w_6x128", "status": "ok", "width_um": 289.1, "height_um": 183.09, "area_um2": 52931.319, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_96bytes_1r1w_6x128_6.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.65999999999997, "height_um": 237.22, "area_um2": 94807.3452, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_384bytes_1r1w_24x128_24.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.756400000006, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128", "status": "ok", "width_um": 464.38, "height_um": 240.825, "area_um2": 111834.31349999999, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:33:12 =====
+__REMOTE_TIME__ 2026-06-13 01:33:08
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:08 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       68002   62269 97 01:10 ?        00:22:13 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/area_trial.py
+__SUMMARY_COUNT__
+11 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_48bytes_1r1w_6x128", "status": "ok", "width_um": 289.1, "height_um": 183.09, "area_um2": 52931.319, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_48bytes_1r1w_6x128/sky130_sram_96bytes_1r1w_6x128_6.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.65999999999997, "height_um": 237.22, "area_um2": 94807.3452, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_384bytes_1r1w_24x128_24.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.756400000006, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128", "status": "ok", "width_um": 464.38, "height_um": 240.825, "area_um2": 111834.31349999999, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:38:12 =====
+__REMOTE_TIME__ 2026-06-13 01:38:09
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:08 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       69432   62269 97 01:33 ?        00:04:11 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/area_trial.py
+__SUMMARY_COUNT__
+12 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.65999999999997, "height_um": 237.22, "area_um2": 94807.3452, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_384bytes_1r1w_24x128_24.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.756400000006, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128", "status": "ok", "width_um": 464.38, "height_um": 240.825, "area_um2": 111834.31349999999, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128", "status": "ok", "width_um": 936.32, "height_um": 402.645, "area_um2": 377004.5664, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_134.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_4096bytes_1r1w_256x128"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:43:13 =====
+__REMOTE_TIME__ 2026-06-13 01:43:09
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:08 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       69432   62269 97 01:33 ?        00:09:04 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/area_trial.py
+__SUMMARY_COUNT__
+12 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.65999999999997, "height_um": 237.22, "area_um2": 94807.3452, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_384bytes_1r1w_24x128_24.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.756400000006, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128", "status": "ok", "width_um": 464.38, "height_um": 240.825, "area_um2": 111834.31349999999, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128", "status": "ok", "width_um": 936.32, "height_um": 402.645, "area_um2": 377004.5664, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_134.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_4096bytes_1r1w_256x128"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:48:14 =====
+__REMOTE_TIME__ 2026-06-13 01:48:10
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:09 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       69432   62269 97 01:33 ?        00:13:57 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/area_trial.py
+__SUMMARY_COUNT__
+12 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.65999999999997, "height_um": 237.22, "area_um2": 94807.3452, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_384bytes_1r1w_24x128_24.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.756400000006, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128", "status": "ok", "width_um": 464.38, "height_um": 240.825, "area_um2": 111834.31349999999, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128", "status": "ok", "width_um": 936.32, "height_um": 402.645, "area_um2": 377004.5664, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_134.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_4096bytes_1r1w_256x128"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:53:14 =====
+__REMOTE_TIME__ 2026-06-13 01:53:10
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:09 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       69432   62269 97 01:33 ?        00:18:50 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/area_trial.py
+__SUMMARY_COUNT__
+12 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.65999999999997, "height_um": 237.22, "area_um2": 94807.3452, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_384bytes_1r1w_24x128_24.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.756400000006, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128", "status": "ok", "width_um": 464.38, "height_um": 240.825, "area_um2": 111834.31349999999, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128", "status": "ok", "width_um": 936.32, "height_um": 402.645, "area_um2": 377004.5664, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_134.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_4096bytes_1r1w_256x128"}
+__FINALIZE_LOG__
+
+===== 2026-06-13 01:58:15 =====
+__REMOTE_TIME__ 2026-06-13 01:58:11
+__PROCS__
+ryan       62269       1  0 Jun12 ?        00:00:09 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_batch_probe_real_area_1r1w_full.py
+ryan       62839       1  0 Jun12 ?        00:00:00 bash /tmp/remote_finalize_real_area_after_batch.sh
+ryan       69432   62269 97 01:33 ?        00:23:44 /home/EDA/mentor/calibre2026/aok_cal_2026.1_17.11/pkgs/icv_python/asp/bin/python3 /tmp/remote_probe_real_area_single.py /Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_4096bytes_1r1w_256x128/area_trial.py
+__SUMMARY_COUNT__
+12 /Sky130_memory/reports/v20260612_1r1w_full/real_area_summary.jsonl
+__DEBUG_TAIL__
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256"}
+{"phase": "end_mem", "memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14000000000004, "height_um": 248.73000000000002, "area_um2": 80623.34220000001, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256_8.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.65999999999997, "height_um": 237.22, "area_um2": 94807.3452, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_96bytes_1r1w_24x128/sky130_sram_384bytes_1r1w_24x128_24.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32"}
+{"phase": "end_mem", "memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.756400000006, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_512bytes_1r1w_32x128", "status": "ok", "width_um": 464.38, "height_um": 240.825, "area_um2": 111834.31349999999, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128_32.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128"}
+{"phase": "end_mem", "memory_id": "sky130_sram_2144bytes_1r1w_134x128", "status": "ok", "width_um": 936.32, "height_um": 402.645, "area_um2": 377004.5664, "rc": 0, "trial_dir": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128", "log_path": "/Sky130_memory/work/openram_area_trials/v20260612_1r1w_full/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128_134.log"}
+{"phase": "begin_mem", "memory_id": "sky130_sram_4096bytes_1r1w_256x128"}
+__FINALIZE_LOG__
+

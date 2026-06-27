@@ -1,0 +1,3 @@
+read_lib -format liberty "/Sky130_memory/outputs/genus/v20260610_162230/sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.lib"
+report_lib
+exit

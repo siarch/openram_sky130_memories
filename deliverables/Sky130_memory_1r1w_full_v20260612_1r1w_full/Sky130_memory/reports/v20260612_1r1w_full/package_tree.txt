@@ -1,0 +1,849 @@
+.
+|-- configs
+|   |-- memory_matrix.yaml
+|   `-- memory_matrix_1r1w_requested.yaml
+|-- logs
+|   `-- v20260612_1r1w_full
+|       |-- sky130_sram_128bytes_1r1w_16x64.attempt1.log
+|       |-- sky130_sram_128bytes_1r1w_16x64.attempt2.log
+|       |-- sky130_sram_128bytes_1r1w_16x64.attempt3.log
+|       |-- sky130_sram_128bytes_1r1w_16x64.multicorner_attempt1.log
+|       |-- sky130_sram_128bytes_1r1w_32x32.attempt1.log
+|       |-- sky130_sram_128bytes_1r1w_32x32.attempt2.log
+|       |-- sky130_sram_128bytes_1r1w_32x32.attempt3.log
+|       |-- sky130_sram_128bytes_1r1w_32x32.multicorner_attempt1.log
+|       |-- sky130_sram_128bytes_1r1w_8x128.attempt1.log
+|       |-- sky130_sram_128bytes_1r1w_8x128.attempt2.log
+|       |-- sky130_sram_128bytes_1r1w_8x128.attempt3.log
+|       |-- sky130_sram_128bytes_1r1w_8x128.multicorner_attempt1.log
+|       |-- sky130_sram_16kbytes_1r1w_16x8192.attempt1.log
+|       |-- sky130_sram_16kbytes_1r1w_16x8192.attempt2.log
+|       |-- sky130_sram_16kbytes_1r1w_16x8192.attempt3.log
+|       |-- sky130_sram_16kbytes_1r1w_16x8192.multicorner_attempt1.log
+|       |-- sky130_sram_1kbytes_1r1w_16x512.attempt1.log
+|       |-- sky130_sram_1kbytes_1r1w_16x512.attempt2.log
+|       |-- sky130_sram_1kbytes_1r1w_16x512.attempt3.log
+|       |-- sky130_sram_1kbytes_1r1w_16x512.multicorner_attempt1.log
+|       |-- sky130_sram_2144bytes_1r1w_134x128.attempt1.log
+|       |-- sky130_sram_2144bytes_1r1w_134x128.attempt2.log
+|       |-- sky130_sram_2144bytes_1r1w_134x128.attempt3.log
+|       |-- sky130_sram_2144bytes_1r1w_134x128.multicorner_attempt1.log
+|       |-- sky130_sram_256bytes_1r1w_16x128.attempt1.log
+|       |-- sky130_sram_256bytes_1r1w_16x128.attempt2.log
+|       |-- sky130_sram_256bytes_1r1w_16x128.attempt3.log
+|       |-- sky130_sram_256bytes_1r1w_16x128.multicorner_attempt1.log
+|       |-- sky130_sram_256bytes_1r1w_8x256.attempt1.log
+|       |-- sky130_sram_256bytes_1r1w_8x256.attempt2.log
+|       |-- sky130_sram_256bytes_1r1w_8x256.attempt3.log
+|       |-- sky130_sram_256bytes_1r1w_8x256.multicorner_attempt1.log
+|       |-- sky130_sram_4096bytes_1r1w_256x128.attempt1.log
+|       |-- sky130_sram_4096bytes_1r1w_256x128.attempt2.log
+|       |-- sky130_sram_4096bytes_1r1w_256x128.attempt3.log
+|       |-- sky130_sram_4096bytes_1r1w_256x128.multicorner_attempt1.log
+|       |-- sky130_sram_48bytes_1r1w_6x128.attempt1.log
+|       |-- sky130_sram_48bytes_1r1w_6x128.attempt2.log
+|       |-- sky130_sram_48bytes_1r1w_6x128.attempt3.log
+|       |-- sky130_sram_48bytes_1r1w_6x128.multicorner_attempt1.log
+|       |-- sky130_sram_512bytes_1r1w_16x256.attempt1.log
+|       |-- sky130_sram_512bytes_1r1w_16x256.attempt2.log
+|       |-- sky130_sram_512bytes_1r1w_16x256.attempt3.log
+|       |-- sky130_sram_512bytes_1r1w_16x256.multicorner_attempt1.log
+|       |-- sky130_sram_512bytes_1r1w_32x128.attempt1.log
+|       |-- sky130_sram_512bytes_1r1w_32x128.attempt2.log
+|       |-- sky130_sram_512bytes_1r1w_32x128.attempt3.log
+|       |-- sky130_sram_512bytes_1r1w_32x128.multicorner_attempt1.log
+|       |-- sky130_sram_96bytes_1r1w_24x128.attempt1.log
+|       |-- sky130_sram_96bytes_1r1w_24x128.attempt2.log
+|       |-- sky130_sram_96bytes_1r1w_24x128.attempt3.log
+|       |-- sky130_sram_96bytes_1r1w_24x128.multicorner_attempt1.log
+|       |-- sky130_sram_96bytes_1r1w_24x128.multicorner_attempt2.log
+|       `-- sky130_sram_96bytes_1r1w_24x128.multicorner_attempt3.log
+|-- manifests
+|   `-- v20260612_1r1w_full
+|       |-- full_memory_ids.txt
+|       `-- full_view_manifest.json
+|-- outputs
+|   |-- design_compiler
+|   |   `-- v20260612_1r1w_full
+|   |       |-- sky130_sram_128bytes_1r1w_16x64
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64.v
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_128bytes_1r1w_16x64_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_128bytes_1r1w_32x32
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32.v
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_128bytes_1r1w_32x32_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_128bytes_1r1w_8x128
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128.v
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_128bytes_1r1w_8x128_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_16kbytes_1r1w_16x8192
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192.v
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_1kbytes_1r1w_16x512
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512.v
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_2144bytes_1r1w_134x128
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128.v
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_256bytes_1r1w_16x128
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128.v
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_256bytes_1r1w_16x128_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_256bytes_1r1w_8x256
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256.v
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_256bytes_1r1w_8x256_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_4096bytes_1r1w_256x128
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128.v
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_48bytes_1r1w_6x128
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128.v
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_48bytes_1r1w_6x128_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_512bytes_1r1w_16x256
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256.v
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_512bytes_1r1w_16x256_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_512bytes_1r1w_32x128
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128.v
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_512bytes_1r1w_32x128_TT_1p8V_25C.lib
+|   |       `-- sky130_sram_96bytes_1r1w_24x128
+|   |           |-- sky130_sram_96bytes_1r1w_24x128.v
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_FF_1p9V_0C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_FF_1p9V_100C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_FF_1p9V_25C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_SS_1p7V_0C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_SS_1p7V_100C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_SS_1p7V_25C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_TT_1p8V_0C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_TT_1p8V_100C.lib
+|   |           `-- sky130_sram_96bytes_1r1w_24x128_TT_1p8V_25C.lib
+|   |-- genus
+|   |   `-- v20260612_1r1w_full
+|   |       |-- sky130_sram_128bytes_1r1w_16x64
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_16x64_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_128bytes_1r1w_16x64_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_128bytes_1r1w_32x32
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_32x32_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_128bytes_1r1w_32x32_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_128bytes_1r1w_8x128
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_128bytes_1r1w_8x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_128bytes_1r1w_8x128_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_16kbytes_1r1w_16x8192
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_1kbytes_1r1w_16x512
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_2144bytes_1r1w_134x128
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_256bytes_1r1w_16x128
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_16x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_256bytes_1r1w_16x128_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_256bytes_1r1w_8x256
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_256bytes_1r1w_8x256_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_256bytes_1r1w_8x256_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_4096bytes_1r1w_256x128
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_48bytes_1r1w_6x128
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_48bytes_1r1w_6x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_48bytes_1r1w_6x128_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_512bytes_1r1w_16x256
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_16x256_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_512bytes_1r1w_16x256_TT_1p8V_25C.lib
+|   |       |-- sky130_sram_512bytes_1r1w_32x128
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_FF_1p9V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_FF_1p9V_100C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_FF_1p9V_25C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_SS_1p7V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_SS_1p7V_100C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_SS_1p7V_25C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_TT_1p8V_0C.lib
+|   |       |   |-- sky130_sram_512bytes_1r1w_32x128_TT_1p8V_100C.lib
+|   |       |   `-- sky130_sram_512bytes_1r1w_32x128_TT_1p8V_25C.lib
+|   |       `-- sky130_sram_96bytes_1r1w_24x128
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_FF_1p9V_0C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_FF_1p9V_100C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_FF_1p9V_25C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_SS_1p7V_0C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_SS_1p7V_100C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_SS_1p7V_25C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_TT_1p8V_0C.lib
+|   |           |-- sky130_sram_96bytes_1r1w_24x128_TT_1p8V_100C.lib
+|   |           `-- sky130_sram_96bytes_1r1w_24x128_TT_1p8V_25C.lib
+|   |-- spyglass
+|   |   `-- v20260612_1r1w_full
+|   |       |-- sky130_sram_128bytes_1r1w_16x64
+|   |       |   `-- sky130_sram_128bytes_1r1w_16x64.v
+|   |       |-- sky130_sram_128bytes_1r1w_32x32
+|   |       |   `-- sky130_sram_128bytes_1r1w_32x32.v
+|   |       |-- sky130_sram_128bytes_1r1w_8x128
+|   |       |   `-- sky130_sram_128bytes_1r1w_8x128.v
+|   |       |-- sky130_sram_16kbytes_1r1w_16x8192
+|   |       |   `-- sky130_sram_16kbytes_1r1w_16x8192.v
+|   |       |-- sky130_sram_1kbytes_1r1w_16x512
+|   |       |   `-- sky130_sram_1kbytes_1r1w_16x512.v
+|   |       |-- sky130_sram_2144bytes_1r1w_134x128
+|   |       |   `-- sky130_sram_2144bytes_1r1w_134x128.v
+|   |       |-- sky130_sram_256bytes_1r1w_16x128
+|   |       |   `-- sky130_sram_256bytes_1r1w_16x128.v
+|   |       |-- sky130_sram_256bytes_1r1w_8x256
+|   |       |   `-- sky130_sram_256bytes_1r1w_8x256.v
+|   |       |-- sky130_sram_4096bytes_1r1w_256x128
+|   |       |   `-- sky130_sram_4096bytes_1r1w_256x128.v
+|   |       |-- sky130_sram_48bytes_1r1w_6x128
+|   |       |   `-- sky130_sram_48bytes_1r1w_6x128.v
+|   |       |-- sky130_sram_512bytes_1r1w_16x256
+|   |       |   `-- sky130_sram_512bytes_1r1w_16x256.v
+|   |       |-- sky130_sram_512bytes_1r1w_32x128
+|   |       |   `-- sky130_sram_512bytes_1r1w_32x128.v
+|   |       `-- sky130_sram_96bytes_1r1w_24x128
+|   |           `-- sky130_sram_96bytes_1r1w_24x128.v
+|   |-- tessent
+|   |   `-- v20260612_1r1w_full
+|   |       |-- sky130_sram_128bytes_1r1w_16x64
+|   |       |   `-- sky130_sram_128bytes_1r1w_16x64.v
+|   |       |-- sky130_sram_128bytes_1r1w_32x32
+|   |       |   `-- sky130_sram_128bytes_1r1w_32x32.v
+|   |       |-- sky130_sram_128bytes_1r1w_8x128
+|   |       |   `-- sky130_sram_128bytes_1r1w_8x128.v
+|   |       |-- sky130_sram_16kbytes_1r1w_16x8192
+|   |       |   `-- sky130_sram_16kbytes_1r1w_16x8192.v
+|   |       |-- sky130_sram_1kbytes_1r1w_16x512
+|   |       |   `-- sky130_sram_1kbytes_1r1w_16x512.v
+|   |       |-- sky130_sram_2144bytes_1r1w_134x128
+|   |       |   `-- sky130_sram_2144bytes_1r1w_134x128.v
+|   |       |-- sky130_sram_256bytes_1r1w_16x128
+|   |       |   `-- sky130_sram_256bytes_1r1w_16x128.v
+|   |       |-- sky130_sram_256bytes_1r1w_8x256
+|   |       |   `-- sky130_sram_256bytes_1r1w_8x256.v
+|   |       |-- sky130_sram_4096bytes_1r1w_256x128
+|   |       |   `-- sky130_sram_4096bytes_1r1w_256x128.v
+|   |       |-- sky130_sram_48bytes_1r1w_6x128
+|   |       |   `-- sky130_sram_48bytes_1r1w_6x128.v
+|   |       |-- sky130_sram_512bytes_1r1w_16x256
+|   |       |   `-- sky130_sram_512bytes_1r1w_16x256.v
+|   |       |-- sky130_sram_512bytes_1r1w_32x128
+|   |       |   `-- sky130_sram_512bytes_1r1w_32x128.v
+|   |       `-- sky130_sram_96bytes_1r1w_24x128
+|   |           `-- sky130_sram_96bytes_1r1w_24x128.v
+|   |-- vcs
+|   |   `-- v20260612_1r1w_full
+|   |       |-- sky130_sram_128bytes_1r1w_16x64
+|   |       |   `-- sky130_sram_128bytes_1r1w_16x64.v
+|   |       |-- sky130_sram_128bytes_1r1w_32x32
+|   |       |   `-- sky130_sram_128bytes_1r1w_32x32.v
+|   |       |-- sky130_sram_128bytes_1r1w_8x128
+|   |       |   `-- sky130_sram_128bytes_1r1w_8x128.v
+|   |       |-- sky130_sram_16kbytes_1r1w_16x8192
+|   |       |   `-- sky130_sram_16kbytes_1r1w_16x8192.v
+|   |       |-- sky130_sram_1kbytes_1r1w_16x512
+|   |       |   `-- sky130_sram_1kbytes_1r1w_16x512.v
+|   |       |-- sky130_sram_2144bytes_1r1w_134x128
+|   |       |   `-- sky130_sram_2144bytes_1r1w_134x128.v
+|   |       |-- sky130_sram_256bytes_1r1w_16x128
+|   |       |   `-- sky130_sram_256bytes_1r1w_16x128.v
+|   |       |-- sky130_sram_256bytes_1r1w_8x256
+|   |       |   `-- sky130_sram_256bytes_1r1w_8x256.v
+|   |       |-- sky130_sram_4096bytes_1r1w_256x128
+|   |       |   `-- sky130_sram_4096bytes_1r1w_256x128.v
+|   |       |-- sky130_sram_48bytes_1r1w_6x128
+|   |       |   `-- sky130_sram_48bytes_1r1w_6x128.v
+|   |       |-- sky130_sram_512bytes_1r1w_16x256
+|   |       |   `-- sky130_sram_512bytes_1r1w_16x256.v
+|   |       |-- sky130_sram_512bytes_1r1w_32x128
+|   |       |   `-- sky130_sram_512bytes_1r1w_32x128.v
+|   |       `-- sky130_sram_96bytes_1r1w_24x128
+|   |           `-- sky130_sram_96bytes_1r1w_24x128.v
+|   `-- verdi
+|       `-- v20260612_1r1w_full
+|           |-- sky130_sram_128bytes_1r1w_16x64
+|           |   |-- sky130_sram_128bytes_1r1w_16x64.html
+|           |   |-- sky130_sram_128bytes_1r1w_16x64.lvs.sp
+|           |   |-- sky130_sram_128bytes_1r1w_16x64.sp
+|           |   `-- sky130_sram_128bytes_1r1w_16x64.v
+|           |-- sky130_sram_128bytes_1r1w_32x32
+|           |   |-- sky130_sram_128bytes_1r1w_32x32.html
+|           |   |-- sky130_sram_128bytes_1r1w_32x32.lvs.sp
+|           |   |-- sky130_sram_128bytes_1r1w_32x32.sp
+|           |   `-- sky130_sram_128bytes_1r1w_32x32.v
+|           |-- sky130_sram_128bytes_1r1w_8x128
+|           |   |-- sky130_sram_128bytes_1r1w_8x128.html
+|           |   |-- sky130_sram_128bytes_1r1w_8x128.lvs.sp
+|           |   |-- sky130_sram_128bytes_1r1w_8x128.sp
+|           |   `-- sky130_sram_128bytes_1r1w_8x128.v
+|           |-- sky130_sram_16kbytes_1r1w_16x8192
+|           |   |-- sky130_sram_16kbytes_1r1w_16x8192.html
+|           |   |-- sky130_sram_16kbytes_1r1w_16x8192.lvs.sp
+|           |   |-- sky130_sram_16kbytes_1r1w_16x8192.sp
+|           |   `-- sky130_sram_16kbytes_1r1w_16x8192.v
+|           |-- sky130_sram_1kbytes_1r1w_16x512
+|           |   |-- sky130_sram_1kbytes_1r1w_16x512.html
+|           |   |-- sky130_sram_1kbytes_1r1w_16x512.lvs.sp
+|           |   |-- sky130_sram_1kbytes_1r1w_16x512.sp
+|           |   `-- sky130_sram_1kbytes_1r1w_16x512.v
+|           |-- sky130_sram_2144bytes_1r1w_134x128
+|           |   |-- sky130_sram_2144bytes_1r1w_134x128.html
+|           |   |-- sky130_sram_2144bytes_1r1w_134x128.lvs.sp
+|           |   |-- sky130_sram_2144bytes_1r1w_134x128.sp
+|           |   `-- sky130_sram_2144bytes_1r1w_134x128.v
+|           |-- sky130_sram_256bytes_1r1w_16x128
+|           |   |-- sky130_sram_256bytes_1r1w_16x128.html
+|           |   |-- sky130_sram_256bytes_1r1w_16x128.lvs.sp
+|           |   |-- sky130_sram_256bytes_1r1w_16x128.sp
+|           |   `-- sky130_sram_256bytes_1r1w_16x128.v
+|           |-- sky130_sram_256bytes_1r1w_8x256
+|           |   |-- sky130_sram_256bytes_1r1w_8x256.html
+|           |   |-- sky130_sram_256bytes_1r1w_8x256.lvs.sp
+|           |   |-- sky130_sram_256bytes_1r1w_8x256.sp
+|           |   `-- sky130_sram_256bytes_1r1w_8x256.v
+|           |-- sky130_sram_4096bytes_1r1w_256x128
+|           |   |-- sky130_sram_4096bytes_1r1w_256x128.html
+|           |   |-- sky130_sram_4096bytes_1r1w_256x128.lvs.sp
+|           |   |-- sky130_sram_4096bytes_1r1w_256x128.sp
+|           |   `-- sky130_sram_4096bytes_1r1w_256x128.v
+|           |-- sky130_sram_48bytes_1r1w_6x128
+|           |   |-- sky130_sram_48bytes_1r1w_6x128.html
+|           |   |-- sky130_sram_48bytes_1r1w_6x128.lvs.sp
+|           |   |-- sky130_sram_48bytes_1r1w_6x128.sp
+|           |   `-- sky130_sram_48bytes_1r1w_6x128.v
+|           |-- sky130_sram_512bytes_1r1w_16x256
+|           |   |-- sky130_sram_512bytes_1r1w_16x256.html
+|           |   |-- sky130_sram_512bytes_1r1w_16x256.lvs.sp
+|           |   |-- sky130_sram_512bytes_1r1w_16x256.sp
+|           |   `-- sky130_sram_512bytes_1r1w_16x256.v
+|           |-- sky130_sram_512bytes_1r1w_32x128
+|           |   |-- sky130_sram_512bytes_1r1w_32x128.html
+|           |   |-- sky130_sram_512bytes_1r1w_32x128.lvs.sp
+|           |   |-- sky130_sram_512bytes_1r1w_32x128.sp
+|           |   `-- sky130_sram_512bytes_1r1w_32x128.v
+|           `-- sky130_sram_96bytes_1r1w_24x128
+|               |-- sky130_sram_96bytes_1r1w_24x128.html
+|               |-- sky130_sram_96bytes_1r1w_24x128.lvs.sp
+|               |-- sky130_sram_96bytes_1r1w_24x128.sp
+|               `-- sky130_sram_96bytes_1r1w_24x128.v
+|-- reports
+|   `-- v20260612_1r1w_full
+|       |-- dc_vs_design_compiler_diff.json
+|       |-- dc_vs_design_compiler_diff.md
+|       |-- full_view_attempts.jsonl
+|       |-- multicorner_attempts.jsonl
+|       |-- package_tree.txt
+|       |-- real_area_summary_local.jsonl
+|       |-- Sky130_memory_1r1w_full_delivery_en.html
+|       |-- Sky130_memory_1r1w_full_delivery_en.md
+|       |-- Sky130_memory_1r1w_full_delivery_zh.html
+|       |-- Sky130_memory_1r1w_full_delivery_zh.md
+|       `-- Sky130_memory_full_build_report.md
+|-- scripts
+|   |-- analyze_output_aliases.py
+|   |-- generate_1r1w_full_delivery_docs.py
+|   |-- refresh_full_delivery_package.py
+|   |-- remote_finalize_1r1w_full.sh
+|   |-- remote_recover_multicorner_1r1w_full.sh
+|   `-- remote_sync_full_outputs.py
+|-- src
+|   `-- OpenRAM-stable
+|       `-- compiler
+|           `-- modules
+|               `-- replica_column.py
+`-- work
+    |-- openram_builds
+    |   `-- v20260612_1r1w_full
+    |       |-- sky130_sram_128bytes_1r1w_16x64
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64.html
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64.log
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64.lvs.sp
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64.py
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64.sp
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64.v
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64_extended.py
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_16x64_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       |-- sky130_sram_128bytes_1r1w_32x32
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32.html
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32.log
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32.lvs.sp
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32.py
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32.sp
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32.v
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32_extended.py
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_32x32_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       |-- sky130_sram_128bytes_1r1w_8x128
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128.html
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128.log
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128.lvs.sp
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128.py
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128.sp
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128.v
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128_extended.py
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_128bytes_1r1w_8x128_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       |-- sky130_sram_16kbytes_1r1w_16x8192
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192.html
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192.log
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192.lvs.sp
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192.py
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192.sp
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192.v
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_extended.py
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_16kbytes_1r1w_16x8192_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       |-- sky130_sram_1kbytes_1r1w_16x512
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512.html
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512.log
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512.lvs.sp
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512.py
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512.sp
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512.v
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512_extended.py
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_1kbytes_1r1w_16x512_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       |-- sky130_sram_2144bytes_1r1w_134x128
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128.html
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128.log
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128.lvs.sp
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128.py
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128.sp
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128.v
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128_extended.py
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_2144bytes_1r1w_134x128_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       |-- sky130_sram_256bytes_1r1w_16x128
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128.html
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128.log
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128.lvs.sp
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128.py
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128.sp
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128.v
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128_extended.py
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_16x128_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       |-- sky130_sram_256bytes_1r1w_8x256
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256.html
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256.log
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256.lvs.sp
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256.py
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256.sp
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256.v
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256_extended.py
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_256bytes_1r1w_8x256_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       |-- sky130_sram_4096bytes_1r1w_256x128
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128.html
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128.log
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128.lvs.sp
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128.py
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128.sp
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128.v
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128_extended.py
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_4096bytes_1r1w_256x128_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       |-- sky130_sram_48bytes_1r1w_6x128
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128.html
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128.log
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128.lvs.sp
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128.py
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128.sp
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128.v
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128_extended.py
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_48bytes_1r1w_6x128_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       |-- sky130_sram_512bytes_1r1w_16x256
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256.html
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256.log
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256.lvs.sp
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256.py
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256.sp
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256.v
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256_extended.py
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_16x256_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       |-- sky130_sram_512bytes_1r1w_32x128
+    |       |   |-- datasheet.info
+    |       |   |-- delay_meas.sp
+    |       |   |-- delay_stim.sp
+    |       |   |-- functional_meas.sp
+    |       |   |-- functional_stim.sp
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128.html
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128.log
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128.lvs.sp
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128.py
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128.sp
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128.v
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128_extended.py
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128_FF_1p9V_0C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128_FF_1p9V_100C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128_FF_1p9V_25C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128_SS_1p7V_0C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128_SS_1p7V_100C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128_SS_1p7V_25C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128_TT_1p8V_0C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128_TT_1p8V_100C.lib
+    |       |   |-- sky130_sram_512bytes_1r1w_32x128_TT_1p8V_25C.lib
+    |       |   |-- sram.sp
+    |       |   `-- trimmed.sp
+    |       `-- sky130_sram_96bytes_1r1w_24x128
+    |           |-- datasheet.info
+    |           |-- delay_meas.sp
+    |           |-- delay_stim.sp
+    |           |-- functional_meas.sp
+    |           |-- functional_stim.sp
+    |           |-- sky130_sram_96bytes_1r1w_24x128.html
+    |           |-- sky130_sram_96bytes_1r1w_24x128.log
+    |           |-- sky130_sram_96bytes_1r1w_24x128.lvs.sp
+    |           |-- sky130_sram_96bytes_1r1w_24x128.py
+    |           |-- sky130_sram_96bytes_1r1w_24x128.sp
+    |           |-- sky130_sram_96bytes_1r1w_24x128.v
+    |           |-- sky130_sram_96bytes_1r1w_24x128_extended.py
+    |           |-- sky130_sram_96bytes_1r1w_24x128_FF_1p9V_0C.lib
+    |           |-- sky130_sram_96bytes_1r1w_24x128_FF_1p9V_100C.lib
+    |           |-- sky130_sram_96bytes_1r1w_24x128_FF_1p9V_25C.lib
+    |           |-- sky130_sram_96bytes_1r1w_24x128_SS_1p7V_0C.lib
+    |           |-- sky130_sram_96bytes_1r1w_24x128_SS_1p7V_100C.lib
+    |           |-- sky130_sram_96bytes_1r1w_24x128_SS_1p7V_25C.lib
+    |           |-- sky130_sram_96bytes_1r1w_24x128_TT_1p8V_0C.lib
+    |           |-- sky130_sram_96bytes_1r1w_24x128_TT_1p8V_100C.lib
+    |           |-- sky130_sram_96bytes_1r1w_24x128_TT_1p8V_25C.lib
+    |           |-- sram.sp
+    |           `-- trimmed.sp
+    `-- openram_configs_full
+        `-- v20260612_1r1w_full
+            |-- sky130_sram_128bytes_1r1w_16x64.py
+            |-- sky130_sram_128bytes_1r1w_32x32.py
+            |-- sky130_sram_128bytes_1r1w_8x128.py
+            |-- sky130_sram_16kbytes_1r1w_16x8192.py
+            |-- sky130_sram_1kbytes_1r1w_16x512.py
+            |-- sky130_sram_2144bytes_1r1w_134x128.py
+            |-- sky130_sram_256bytes_1r1w_16x128.py
+            |-- sky130_sram_256bytes_1r1w_8x256.py
+            |-- sky130_sram_4096bytes_1r1w_256x128.py
+            |-- sky130_sram_48bytes_1r1w_6x128.py
+            |-- sky130_sram_512bytes_1r1w_16x256.py
+            |-- sky130_sram_512bytes_1r1w_32x128.py
+            |-- sky130_sram_96bytes_1r1w_24x128.py
+            `-- sky130_sram_common.py

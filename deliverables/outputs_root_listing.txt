@@ -1,0 +1,21 @@
+﻿
+Name                               PSIsCon
+                                    tainer
+----                               -------
+sky130_sram_128bytes_1r1w_16x64       True
+sky130_sram_128bytes_1r1w_32x32       True
+sky130_sram_128bytes_1r1w_8x128       True
+sky130_sram_16kbytes_1r1w_16x8192     True
+sky130_sram_1kbytes_1r1w_16x512       True
+sky130_sram_2144bytes_1r1w_134x128    True
+sky130_sram_256bytes_1r1w_16x128      True
+sky130_sram_256bytes_1r1w_8x256       True
+sky130_sram_4096bytes_1r1w_256x128    True
+sky130_sram_48bytes_1r1w_6x128        True
+sky130_sram_512bytes_1r1w_16x256      True
+sky130_sram_512bytes_1r1w_32x128      True
+sky130_sram_96bytes_1r1w_24x128       True
+README_TESSENT_INPUTS.txt            False
+v20260612_1r1w.prj                   False
+
+

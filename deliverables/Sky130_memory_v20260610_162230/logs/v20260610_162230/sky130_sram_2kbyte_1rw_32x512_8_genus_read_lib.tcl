@@ -1,0 +1,3 @@
+read_libs "/Sky130_memory/outputs/genus/v20260610_162230/sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.lib"
+report_libs
+exit

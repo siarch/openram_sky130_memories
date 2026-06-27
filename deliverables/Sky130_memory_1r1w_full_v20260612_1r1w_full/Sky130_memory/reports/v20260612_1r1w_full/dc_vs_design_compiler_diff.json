@@ -1,0 +1,403 @@
+[
+  {
+    "version": "v20260610_160110",
+    "dc_file_count": 0,
+    "design_compiler_file_count": 0,
+    "identical_common_files": [],
+    "different_common_files": [],
+    "only_in_dc": [],
+    "only_in_design_compiler": []
+  },
+  {
+    "version": "v20260610_161454",
+    "dc_file_count": 0,
+    "design_compiler_file_count": 0,
+    "identical_common_files": [],
+    "different_common_files": [],
+    "only_in_dc": [],
+    "only_in_design_compiler": []
+  },
+  {
+    "version": "v20260610_162230",
+    "dc_file_count": 6,
+    "design_compiler_file_count": 12,
+    "identical_common_files": [
+      {
+        "path": "sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.lib",
+        "dc": {
+          "size": 11314,
+          "mtime": 1781080131,
+          "sha256": "d4453a58b3b32d77448ef4b53464eaefde168eb21b37ef2dbf32511d0bcb5fb6"
+        },
+        "design_compiler": {
+          "size": 11314,
+          "mtime": 1781080131,
+          "sha256": "d4453a58b3b32d77448ef4b53464eaefde168eb21b37ef2dbf32511d0bcb5fb6"
+        }
+      },
+      {
+        "path": "sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.lib",
+        "dc": {
+          "size": 11306,
+          "mtime": 1781079838,
+          "sha256": "121bbbb61d5fc1ee56bd3c15fc17c6ce36149d56ad64e6047bac3d2e55d83a83"
+        },
+        "design_compiler": {
+          "size": 11306,
+          "mtime": 1781079838,
+          "sha256": "121bbbb61d5fc1ee56bd3c15fc17c6ce36149d56ad64e6047bac3d2e55d83a83"
+        }
+      },
+      {
+        "path": "sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.lib",
+        "dc": {
+          "size": 11304,
+          "mtime": 1781079855,
+          "sha256": "981b55e4749e3aed72ffabd5d89533bac1514683e255cdf8532a6aaee70dd5be"
+        },
+        "design_compiler": {
+          "size": 11304,
+          "mtime": 1781079855,
+          "sha256": "981b55e4749e3aed72ffabd5d89533bac1514683e255cdf8532a6aaee70dd5be"
+        }
+      },
+      {
+        "path": "sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.lib",
+        "dc": {
+          "size": 11312,
+          "mtime": 1781079888,
+          "sha256": "fb62a294422d4b335a0fc02702f273ca582802f6c5d63345d3b415a48d034fbf"
+        },
+        "design_compiler": {
+          "size": 11312,
+          "mtime": 1781079888,
+          "sha256": "fb62a294422d4b335a0fc02702f273ca582802f6c5d63345d3b415a48d034fbf"
+        }
+      },
+      {
+        "path": "sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.lib",
+        "dc": {
+          "size": 11308,
+          "mtime": 1781079922,
+          "sha256": "d4832c03dfe06bfa86ac0a1eac2cbfffaea0954a66106422090ead4b22ae87b8"
+        },
+        "design_compiler": {
+          "size": 11308,
+          "mtime": 1781079922,
+          "sha256": "d4832c03dfe06bfa86ac0a1eac2cbfffaea0954a66106422090ead4b22ae87b8"
+        }
+      },
+      {
+        "path": "sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.lib",
+        "dc": {
+          "size": 11312,
+          "mtime": 1781079985,
+          "sha256": "5eb33115133844ee4c5e6592bcc91928c6a19540735f7d6023cfe9d6d97b3a0b"
+        },
+        "design_compiler": {
+          "size": 11312,
+          "mtime": 1781079985,
+          "sha256": "5eb33115133844ee4c5e6592bcc91928c6a19540735f7d6023cfe9d6d97b3a0b"
+        }
+      }
+    ],
+    "different_common_files": [],
+    "only_in_dc": [],
+    "only_in_design_compiler": [
+      {
+        "path": "sky130_sram_16kbyte_1rw_32x4096_8/sky130_sram_16kbyte_1rw_32x4096_8.v",
+        "size": 2492,
+        "mtime": 1781080131,
+        "sha256": "71503e4d38b0e0a90a08649c2975f34198094e80c3bde48379a4627d66795a6c"
+      },
+      {
+        "path": "sky130_sram_1kbyte_1rw_32x256_8/sky130_sram_1kbyte_1rw_32x256_8.v",
+        "size": 2488,
+        "mtime": 1781079838,
+        "sha256": "b793beeaace1d152ac7f96e9f0daecd7eddc574d0d8503f94512feb188a1446c"
+      },
+      {
+        "path": "sky130_sram_2kbyte_1rw_32x512_8/sky130_sram_2kbyte_1rw_32x512_8.v",
+        "size": 2489,
+        "mtime": 1781079856,
+        "sha256": "37ca1adee21ec90db5c698a74745d8b6d01bea02118675b1e3213a580ce97b66"
+      },
+      {
+        "path": "sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.v",
+        "size": 2491,
+        "mtime": 1781079888,
+        "sha256": "a6cdd549309d7707633fc0c6863a69b3fc719ce45b85e6f523af791f1d4b6573"
+      },
+      {
+        "path": "sky130_sram_4kbyte_1rw_64x512_8/sky130_sram_4kbyte_1rw_64x512_8.v",
+        "size": 2825,
+        "mtime": 1781079922,
+        "sha256": "ceca6b3c0d8cd48fa5fd36ff5e0890e322bcb01d1939fe6798f4801a752d4f5a"
+      },
+      {
+        "path": "sky130_sram_8kbyte_1rw_32x2048_8/sky130_sram_8kbyte_1rw_32x2048_8.v",
+        "size": 2491,
+        "mtime": 1781079985,
+        "sha256": "10cc98787007144e1da89c16b94c9a16dd582c7849a13c45bcbd20b3f4b06edc"
+      }
+    ]
+  },
+  {
+    "version": "v20260612_1r1w",
+    "dc_file_count": 13,
+    "design_compiler_file_count": 26,
+    "identical_common_files": [
+      {
+        "path": "sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64.lib",
+        "dc": {
+          "size": 11843,
+          "mtime": 1781268669,
+          "sha256": "031b7066c89ac3be590bfea06562b67c7c0d8bf8f8f681e779be620fde8be153"
+        },
+        "design_compiler": {
+          "size": 11843,
+          "mtime": 1781268669,
+          "sha256": "031b7066c89ac3be590bfea06562b67c7c0d8bf8f8f681e779be620fde8be153"
+        }
+      },
+      {
+        "path": "sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32.lib",
+        "dc": {
+          "size": 11843,
+          "mtime": 1781268672,
+          "sha256": "5b8f5b4d675556761c67a7b28aa4d9a6884fb0ca813705acb286235ec0bd2ab7"
+        },
+        "design_compiler": {
+          "size": 11843,
+          "mtime": 1781268672,
+          "sha256": "5b8f5b4d675556761c67a7b28aa4d9a6884fb0ca813705acb286235ec0bd2ab7"
+        }
+      },
+      {
+        "path": "sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.lib",
+        "dc": {
+          "size": 11838,
+          "mtime": 1781268675,
+          "sha256": "210c540c9f06894cd739593c1a2f273b493023f227c5092a616d37e96d65ec5a"
+        },
+        "design_compiler": {
+          "size": 11838,
+          "mtime": 1781268675,
+          "sha256": "210c540c9f06894cd739593c1a2f273b493023f227c5092a616d37e96d65ec5a"
+        }
+      },
+      {
+        "path": "sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.lib",
+        "dc": {
+          "size": 11856,
+          "mtime": 1781268716,
+          "sha256": "1341534dd976f09e4f82d5ab2805c9646099f44bc4593d60598bfae38ab5b527"
+        },
+        "design_compiler": {
+          "size": 11856,
+          "mtime": 1781268716,
+          "sha256": "1341534dd976f09e4f82d5ab2805c9646099f44bc4593d60598bfae38ab5b527"
+        }
+      },
+      {
+        "path": "sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512.lib",
+        "dc": {
+          "size": 11839,
+          "mtime": 1781268730,
+          "sha256": "a0e5764c1f45a553b7f196d9f6b00912593def99246fe531c0c87f69aefcd690"
+        },
+        "design_compiler": {
+          "size": 11839,
+          "mtime": 1781268730,
+          "sha256": "a0e5764c1f45a553b7f196d9f6b00912593def99246fe531c0c87f69aefcd690"
+        }
+      },
+      {
+        "path": "sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.lib",
+        "dc": {
+          "size": 11858,
+          "mtime": 1781268745,
+          "sha256": "8e46f89580138c990bc13c572830f0f1b336277284e12fdca73e3599413427f1"
+        },
+        "design_compiler": {
+          "size": 11858,
+          "mtime": 1781268745,
+          "sha256": "8e46f89580138c990bc13c572830f0f1b336277284e12fdca73e3599413427f1"
+        }
+      },
+      {
+        "path": "sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128.lib",
+        "dc": {
+          "size": 11843,
+          "mtime": 1781268750,
+          "sha256": "488b14f6ea58a092822d91f05e513634572121628a68bf45084009d18c645606"
+        },
+        "design_compiler": {
+          "size": 11843,
+          "mtime": 1781268750,
+          "sha256": "488b14f6ea58a092822d91f05e513634572121628a68bf45084009d18c645606"
+        }
+      },
+      {
+        "path": "sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256.lib",
+        "dc": {
+          "size": 11838,
+          "mtime": 1781268753,
+          "sha256": "81061e9e4082accffa3a4c2d13864c85ed43c49412fdea15b6a376d206fe3dae"
+        },
+        "design_compiler": {
+          "size": 11838,
+          "mtime": 1781268753,
+          "sha256": "81061e9e4082accffa3a4c2d13864c85ed43c49412fdea15b6a376d206fe3dae"
+        }
+      },
+      {
+        "path": "sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128.lib",
+        "dc": {
+          "size": 11848,
+          "mtime": 1781268783,
+          "sha256": "d72c3f56b6ba3c630bec186dd8fb41e13bf1dbad4eca15a0680453369058786d"
+        },
+        "design_compiler": {
+          "size": 11848,
+          "mtime": 1781268783,
+          "sha256": "d72c3f56b6ba3c630bec186dd8fb41e13bf1dbad4eca15a0680453369058786d"
+        }
+      },
+      {
+        "path": "sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128.lib",
+        "dc": {
+          "size": 11838,
+          "mtime": 1781268855,
+          "sha256": "221b876aaa72f1172e0ca761dbc9981e24cba2848c0c9a32a6dd4d15cde0400a"
+        },
+        "design_compiler": {
+          "size": 11838,
+          "mtime": 1781268855,
+          "sha256": "221b876aaa72f1172e0ca761dbc9981e24cba2848c0c9a32a6dd4d15cde0400a"
+        }
+      },
+      {
+        "path": "sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256.lib",
+        "dc": {
+          "size": 11847,
+          "mtime": 1781268902,
+          "sha256": "bc0c6e9d20c420054bb0ecb4e4ac7b6b7a5a71726b87a6e7fc67da1203d185f5"
+        },
+        "design_compiler": {
+          "size": 11847,
+          "mtime": 1781268902,
+          "sha256": "bc0c6e9d20c420054bb0ecb4e4ac7b6b7a5a71726b87a6e7fc67da1203d185f5"
+        }
+      },
+      {
+        "path": "sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128.lib",
+        "dc": {
+          "size": 11849,
+          "mtime": 1781268902,
+          "sha256": "0abff31e846fa1cf6aad4a654f2dad73c8a9075c2a7e0251d74b498ffaa28758"
+        },
+        "design_compiler": {
+          "size": 11849,
+          "mtime": 1781268902,
+          "sha256": "0abff31e846fa1cf6aad4a654f2dad73c8a9075c2a7e0251d74b498ffaa28758"
+        }
+      },
+      {
+        "path": "sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.lib",
+        "dc": {
+          "size": 11843,
+          "mtime": 1781268864,
+          "sha256": "f50bcc71c5604f0b5eb8e1f93512b4567459e3ad553c07ccbfbfade2524c6f94"
+        },
+        "design_compiler": {
+          "size": 11843,
+          "mtime": 1781268864,
+          "sha256": "f50bcc71c5604f0b5eb8e1f93512b4567459e3ad553c07ccbfbfade2524c6f94"
+        }
+      }
+    ],
+    "different_common_files": [],
+    "only_in_dc": [],
+    "only_in_design_compiler": [
+      {
+        "path": "sky130_sram_128bytes_1r1w_16x64/sky130_sram_128bytes_1r1w_16x64.v",
+        "size": 2333,
+        "mtime": 1781268669,
+        "sha256": "a3fdc0300fb760c03cf1e6ee82874a56c625aa61037a4b6a5a397ce8f690f074"
+      },
+      {
+        "path": "sky130_sram_128bytes_1r1w_32x32/sky130_sram_128bytes_1r1w_32x32.v",
+        "size": 2333,
+        "mtime": 1781268672,
+        "sha256": "005604d0e8d6da59bbcd86a05748987af5c9c3ccd87bce19559552e6ca8db5c7"
+      },
+      {
+        "path": "sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.v",
+        "size": 2327,
+        "mtime": 1781268675,
+        "sha256": "b75902fcddae220827e5cbc97b4fd1ef397e4a6115876f3e853f9a028598732c"
+      },
+      {
+        "path": "sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.v",
+        "size": 2338,
+        "mtime": 1781268716,
+        "sha256": "ab3c64690389e3b907483c7a381ffb88d27ebff97a6bb8e63a639890be4e15c6"
+      },
+      {
+        "path": "sky130_sram_1kbytes_1r1w_16x512/sky130_sram_1kbytes_1r1w_16x512.v",
+        "size": 2335,
+        "mtime": 1781268730,
+        "sha256": "e5bc0deea8da306f74b6f913cf9ad47f29d305ccf65743e9eb3877bbd1a67b49"
+      },
+      {
+        "path": "sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.v",
+        "size": 2344,
+        "mtime": 1781268745,
+        "sha256": "cb419eab2a06a0481712a5bcb3cf707a8801ecc1a572a0b2e6be0a9f7d560ed0"
+      },
+      {
+        "path": "sky130_sram_256bytes_1r1w_16x128/sky130_sram_256bytes_1r1w_16x128.v",
+        "size": 2335,
+        "mtime": 1781268750,
+        "sha256": "831754d3a4de464d36d1641352b6588b30579d0afe86c54bcef7c0e391a23053"
+      },
+      {
+        "path": "sky130_sram_256bytes_1r1w_8x256/sky130_sram_256bytes_1r1w_8x256.v",
+        "size": 2327,
+        "mtime": 1781268754,
+        "sha256": "5d7772138438d759f918a30666fc544d06d8655772745ae1615ab7f54c3c496f"
+      },
+      {
+        "path": "sky130_sram_4096bytes_1r1w_256x128/sky130_sram_4096bytes_1r1w_256x128.v",
+        "size": 2344,
+        "mtime": 1781268783,
+        "sha256": "b63534cdca34445b5940582bbfce441fff7a275662a743cafdaafbe085813436"
+      },
+      {
+        "path": "sky130_sram_48bytes_1r1w_6x128/sky130_sram_48bytes_1r1w_6x128.v",
+        "size": 2326,
+        "mtime": 1781268855,
+        "sha256": "7062b381682ef96ea8ca45b7ffca4cfebf149f600f13d9822a1c122e32e9cb0c"
+      },
+      {
+        "path": "sky130_sram_512bytes_1r1w_16x256/sky130_sram_512bytes_1r1w_16x256.v",
+        "size": 2335,
+        "mtime": 1781268902,
+        "sha256": "d0cc304a8751dbc1485ba97beae593f0e8b57d58d9220e4396fe3b36af4c561f"
+      },
+      {
+        "path": "sky130_sram_512bytes_1r1w_32x128/sky130_sram_512bytes_1r1w_32x128.v",
+        "size": 2335,
+        "mtime": 1781268902,
+        "sha256": "eea3e5095c0b6d739289686a1dbc6240031a45349699d21c54ea2fa3708d4c94"
+      },
+      {
+        "path": "sky130_sram_96bytes_1r1w_24x128/sky130_sram_96bytes_1r1w_24x128.v",
+        "size": 2334,
+        "mtime": 1781268864,
+        "sha256": "9c663c0f5dd8d0629e74ab0f43ea1fb3d04860333b3a8881aa1b0466ae40406d"
+      }
+    ]
+  }
+]

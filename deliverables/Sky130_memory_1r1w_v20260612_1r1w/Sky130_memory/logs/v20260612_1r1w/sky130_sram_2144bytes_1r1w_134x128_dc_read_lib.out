@@ -1,0 +1,60 @@
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid this.
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+               Version X-2025.06-SP3 for linux64 - Oct 16, 2025 
+
+                    Copyright (c) 1988 - 2025 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+Initializing...
+Initializing gui preferences from file  /home/RD/ryan/.synopsys_dc_gui/preferences.tcl
+Current time:       Fri Jun 12 20:55:15 2026
+Hostname:           eda.ic
+CPU Model:          AMD Ryzen 7 5700G with Radeon Graphics
+CPU Details:        Cores = 6 : Sockets = 1 : Cache Size = 512 KB : Freq = 3.79 GHz
+OS:                 Linux 4.18.0-553.78.1.el8_10.x86_64
+RAM:                 38 GB (Free  33 GB)
+Swap:                31 GB (Free  31 GB)
+Work Filesystem:    /home mounted to /dev/mapper/rhel-home
+Tmp Filesystem:     / mounted to /dev/mapper/rhel-root
+Work Disk:          919 GB (Free 411 GB)
+Tmp Disk:            48 GB (Free  31 GB)
+
+CPU Load: 42%, Ram Free: 33 GB, Swap Free: 31 GB, Work Disk Free: 411 GB, Tmp Disk Free: 31 GB
+read_lib -format liberty "/Sky130_memory/outputs/genus/v20260612_1r1w/sky130_sram_2144bytes_1r1w_134x128/sky130_sram_2144bytes_1r1w_134x128.lib"
+This option is not supported since K-2015.06 release.
+0
+report_lib
+Error: Required argument 'library_name' was not found (CMD-007)
+exit
+
+Memory usage for this session 89 Mbytes.
+Memory usage for this session including child processes 89 Mbytes.
+CPU usage for this session 2 seconds ( 0.00 hours ).
+Elapsed time for this session 2 seconds ( 0.00 hours ).
+
+Thank you...

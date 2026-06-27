@@ -1,0 +1,58 @@
+[2026-06-12 20:49:46.057375] WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+
+[2026-06-12 20:49:47.427341] |==============================================================================|
+[2026-06-12 20:49:47.427632] |=========                      OpenRAM v1.2.49                       =========|
+[2026-06-12 20:49:47.427750] |=========                                                            =========|
+[2026-06-12 20:49:47.427845] |=========               VLSI Design and Automation Lab               =========|
+[2026-06-12 20:49:47.427953] |=========        Computer Science and Engineering Department         =========|
+[2026-06-12 20:49:47.428014] |=========            University of California Santa Cruz             =========|
+[2026-06-12 20:49:47.428305] |=========                                                            =========|
+[2026-06-12 20:49:47.428394] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2026-06-12 20:49:47.428548] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2026-06-12 20:49:47.428625] |=========                See LICENSE for license info                =========|
+[2026-06-12 20:49:47.428702] |==============================================================================|
+[2026-06-12 20:49:47.428800] ** Start: 06/12/2026 20:49:47
+[2026-06-12 20:49:47.428886] Technology: sky130
+[2026-06-12 20:49:47.428944] Total size: 131072 bits
+[2026-06-12 20:49:47.429018] Word size: 16
+Words: 8192
+Banks: 1
+[2026-06-12 20:49:47.429099] RW ports: 0
+R-only ports: 1
+W-only ports: 1
+[2026-06-12 20:49:47.429175] Netlist only mode (no physical design is being done, netlist_only=False to disable).
+[2026-06-12 20:49:47.429253] Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+[2026-06-12 20:49:47.429331] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2026-06-12 20:49:47.429406] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2026-06-12 20:49:47.429542] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2026-06-12 20:49:47.429618] Only generating nominal corner timing.
+[2026-06-12 20:49:47.438200] Words per row: None
+[2026-06-12 20:49:47.438356] Output files are: 
+[2026-06-12 20:49:47.438430] /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.lvs
+[2026-06-12 20:49:47.438500] /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.sp
+[2026-06-12 20:49:47.438567] /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.v
+[2026-06-12 20:49:47.438634] /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.lib
+[2026-06-12 20:49:47.438702] /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.py
+[2026-06-12 20:49:47.438806] /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.html
+[2026-06-12 20:49:47.438894] /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.log
+[2026-06-12 20:51:21.434981] ** Submodules: 94.0 seconds
+[2026-06-12 20:51:21.435409] ** SRAM creation: 94.0 seconds
+[2026-06-12 20:51:21.435999] SP: Writing to /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.sp
+[2026-06-12 20:51:24.110228] ** Spice writing: 2.7 seconds
+[2026-06-12 20:51:24.110379] DELAY: Writing stimulus...
+[2026-06-12 20:51:37.626979] ** DELAY: 13.5 seconds
+[2026-06-12 20:51:40.286674] LVS: Writing to /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.lvs.sp
+[2026-06-12 20:51:43.004773] ** LVS writing: 2.7 seconds
+[2026-06-12 20:51:43.005010] LIB: Characterizing... 
+[2026-06-12 20:51:43.082777] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2026-06-12 20:51:56.868874] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-12 20:51:56.870396] ** Characterization: 13.9 seconds
+[2026-06-12 20:51:56.870730] Config: Writing to /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.py
+[2026-06-12 20:51:56.870869] ** Config: 0.0 seconds
+[2026-06-12 20:51:56.872004] Datasheet: Writing to /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.html
+[2026-06-12 20:51:56.873366] ** Datasheet: 0.0 seconds
+[2026-06-12 20:51:56.873457] Verilog: Writing to /Sky130_memory/work/openram_builds/v20260612_1r1w/sky130_sram_16kbytes_1r1w_16x8192/sky130_sram_16kbytes_1r1w_16x8192.v
+[2026-06-12 20:51:56.873777] ** Verilog: 0.0 seconds
+[2026-06-12 20:51:56.884773] ** End: 129.5 seconds

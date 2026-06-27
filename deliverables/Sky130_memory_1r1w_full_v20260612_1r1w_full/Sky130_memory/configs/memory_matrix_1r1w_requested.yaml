@@ -1,0 +1,79 @@
+memories:
+  - id: sky130_sram_128bytes_1r1w_16x64
+    kind: openram
+    ports: 1r1w
+    word_size: 16
+    words: 64
+    write_size: 16
+  - id: sky130_sram_256bytes_1r1w_16x128
+    kind: openram
+    ports: 1r1w
+    word_size: 16
+    words: 128
+    write_size: 16
+  - id: sky130_sram_512bytes_1r1w_16x256
+    kind: openram
+    ports: 1r1w
+    word_size: 16
+    words: 256
+    write_size: 16
+  - id: sky130_sram_1kbytes_1r1w_16x512
+    kind: openram
+    ports: 1r1w
+    word_size: 16
+    words: 512
+    write_size: 16
+  - id: sky130_sram_16kbytes_1r1w_16x8192
+    kind: openram
+    ports: 1r1w
+    word_size: 16
+    words: 8192
+    write_size: 16
+  - id: sky130_sram_48bytes_1r1w_6x128
+    kind: openram
+    ports: 1r1w
+    word_size: 6
+    words: 128
+    write_size: 6
+  - id: sky130_sram_128bytes_1r1w_8x128
+    kind: openram
+    ports: 1r1w
+    word_size: 8
+    words: 128
+    write_size: 8
+  - id: sky130_sram_256bytes_1r1w_8x256
+    kind: openram
+    ports: 1r1w
+    word_size: 8
+    words: 256
+    write_size: 8
+  - id: sky130_sram_96bytes_1r1w_24x128
+    kind: openram
+    ports: 1r1w
+    word_size: 24
+    words: 128
+    write_size: 24
+  - id: sky130_sram_128bytes_1r1w_32x32
+    kind: openram
+    ports: 1r1w
+    word_size: 32
+    words: 32
+    write_size: 32
+  - id: sky130_sram_512bytes_1r1w_32x128
+    kind: openram
+    ports: 1r1w
+    word_size: 32
+    words: 128
+    write_size: 32
+  - id: sky130_sram_2144bytes_1r1w_134x128
+    kind: openram
+    ports: 1r1w
+    word_size: 134
+    words: 128
+    write_size: 134
+  - id: sky130_sram_4096bytes_1r1w_256x128
+    kind: openram
+    ports: 1r1w
+    word_size: 256
+    words: 128
+    write_size: 256

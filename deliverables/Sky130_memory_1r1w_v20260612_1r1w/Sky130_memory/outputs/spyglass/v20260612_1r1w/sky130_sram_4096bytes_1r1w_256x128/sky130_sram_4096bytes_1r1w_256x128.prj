@@ -1,0 +1,1 @@
+read_file -type verilog sky130_sram_4096bytes_1r1w_256x128.v

@@ -1,0 +1,13 @@
+{"memory_id": "sky130_sram_128bytes_1r1w_16x64", "status": "ok", "width_um": 334.38, "height_um": 174.02, "area_um2": 58188.8076}
+{"memory_id": "sky130_sram_256bytes_1r1w_16x128", "status": "ok", "width_um": 333.86, "height_um": 237.22, "area_um2": 79198.2692}
+{"memory_id": "sky130_sram_512bytes_1r1w_16x256", "status": "ok", "width_um": 444.94, "height_um": 253.61, "area_um2": 112841.2334}
+{"memory_id": "sky130_sram_1kbytes_1r1w_16x512", "status": "ok", "width_um": 455.7, "height_um": 381.23, "area_um2": 173726.511}
+{"memory_id": "sky130_sram_16kbytes_1r1w_16x8192", "status": "ok", "width_um": 1139.82, "height_um": 1311.75, "area_um2": 1495158.885}
+{"memory_id": "sky130_sram_48bytes_1r1w_6x128", "status": "ok", "width_um": 289.1, "height_um": 183.09, "area_um2": 52931.319}
+{"memory_id": "sky130_sram_128bytes_1r1w_8x128", "status": "ok", "width_um": 325.74, "height_um": 185.53, "area_um2": 60434.5422}
+{"memory_id": "sky130_sram_256bytes_1r1w_8x256", "status": "ok", "width_um": 324.14, "height_um": 248.73, "area_um2": 80623.3422}
+{"memory_id": "sky130_sram_96bytes_1r1w_24x128", "status": "ok", "width_um": 399.66, "height_um": 237.22, "area_um2": 94807.3452}
+{"memory_id": "sky130_sram_128bytes_1r1w_32x32", "status": "ok", "width_um": 353.82, "height_um": 174.02, "area_um2": 61571.7564}
+{"memory_id": "sky130_sram_512bytes_1r1w_32x128", "status": "ok", "width_um": 464.38, "height_um": 240.825, "area_um2": 111834.3135}
+{"memory_id": "sky130_sram_2144bytes_1r1w_134x128", "status": "ok", "width_um": 936.32, "height_um": 402.645, "area_um2": 377004.5664}
+{"memory_id": "sky130_sram_4096bytes_1r1w_256x128", "status": "ok", "width_um": 1741.58, "height_um": 470.965, "area_um2": 820223.2247}

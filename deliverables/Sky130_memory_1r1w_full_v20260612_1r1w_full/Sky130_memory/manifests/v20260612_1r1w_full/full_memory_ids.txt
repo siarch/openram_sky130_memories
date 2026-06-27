@@ -1,0 +1,2 @@
+sky130_sram_96bytes_1r1w_24x128
+sky130_sram_4096bytes_1r1w_256x128

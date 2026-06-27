@@ -1,0 +1,91 @@
+[2026-06-12 22:05:06.752135] WARNING: file globals.py: line 168: Failed to find coverage installation. This can be installed with pip3 install coverage
+
+[2026-06-12 22:05:08.329633] |==============================================================================|
+[2026-06-12 22:05:08.329752] |=========                      OpenRAM v1.2.49                       =========|
+[2026-06-12 22:05:08.329799] |=========                                                            =========|
+[2026-06-12 22:05:08.329840] |=========               VLSI Design and Automation Lab               =========|
+[2026-06-12 22:05:08.329880] |=========        Computer Science and Engineering Department         =========|
+[2026-06-12 22:05:08.329918] |=========            University of California Santa Cruz             =========|
+[2026-06-12 22:05:08.329956] |=========                                                            =========|
+[2026-06-12 22:05:08.329993] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2026-06-12 22:05:08.330029] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2026-06-12 22:05:08.330065] |=========                See LICENSE for license info                =========|
+[2026-06-12 22:05:08.330101] |==============================================================================|
+[2026-06-12 22:05:08.330149] ** Start: 06/12/2026 22:05:08
+[2026-06-12 22:05:08.330194] Technology: sky130
+[2026-06-12 22:05:08.330234] Total size: 1024 bits
+[2026-06-12 22:05:08.330277] Word size: 8
+Words: 128
+Banks: 1
+[2026-06-12 22:05:08.330319] RW ports: 0
+R-only ports: 1
+W-only ports: 1
+[2026-06-12 22:05:08.330431] Netlist only mode (no physical design is being done, netlist_only=False to disable).
+[2026-06-12 22:05:08.330479] Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+[2026-06-12 22:05:08.330522] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2026-06-12 22:05:08.330561] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2026-06-12 22:05:08.330597] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2026-06-12 22:05:08.336701] Words per row: None
+[2026-06-12 22:05:08.336786] Output files are: 
+[2026-06-12 22:05:08.336833] /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.lvs
+[2026-06-12 22:05:08.336875] /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.sp
+[2026-06-12 22:05:08.336915] /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.v
+[2026-06-12 22:05:08.336952] /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.lib
+[2026-06-12 22:05:08.336991] /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.py
+[2026-06-12 22:05:08.337049] /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.html
+[2026-06-12 22:05:08.337230] /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.log
+[2026-06-12 22:05:08.768729] ** Submodules: 0.4 seconds
+[2026-06-12 22:05:08.769073] ** SRAM creation: 0.4 seconds
+[2026-06-12 22:05:08.769659] SP: Writing to /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.sp
+[2026-06-12 22:05:08.835107] ** Spice writing: 0.1 seconds
+[2026-06-12 22:05:08.835243] DELAY: Writing stimulus...
+[2026-06-12 22:05:09.091835] ** DELAY: 0.3 seconds
+[2026-06-12 22:05:09.126705] LVS: Writing to /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.lvs.sp
+[2026-06-12 22:05:09.160971] ** LVS writing: 0.0 seconds
+[2026-06-12 22:05:09.161136] LIB: Characterizing... 
+[2026-06-12 22:05:09.230919] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2026-06-12 22:05:09.438155] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-12 22:05:09.440403] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2026-06-12 22:05:09.648337] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-12 22:05:09.650486] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2026-06-12 22:05:09.838721] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-12 22:05:09.840574] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2026-06-12 22:05:10.040929] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-12 22:05:10.043207] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2026-06-12 22:05:10.237315] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-12 22:05:10.239568] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2026-06-12 22:05:10.433745] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-12 22:05:10.436835] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2026-06-12 22:05:10.641983] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-12 22:05:10.644432] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2026-06-12 22:05:10.847408] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-12 22:05:10.849592] WARNING: file elmore.py: line 45: In analytical mode, all ports have the timing of the first read port.
+
+[2026-06-12 22:05:11.042305] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-12 22:05:11.043862] ** Characterization: 1.9 seconds
+[2026-06-12 22:05:11.044139] Config: Writing to /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.py
+[2026-06-12 22:05:11.044198] ** Config: 0.0 seconds
+[2026-06-12 22:05:11.045410] Datasheet: Writing to /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.html
+[2026-06-12 22:05:11.047328] ** Datasheet: 0.0 seconds
+[2026-06-12 22:05:11.047423] Verilog: Writing to /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128.v
+[2026-06-12 22:05:11.047616] ** Verilog: 0.0 seconds
+[2026-06-12 22:05:11.047667] Extended Config: Writing to /Sky130_memory/work/openram_builds/v20260612_1r1w_full/sky130_sram_128bytes_1r1w_8x128/sky130_sram_128bytes_1r1w_8x128_extended.py
+[2026-06-12 22:05:11.048120] ** Extended Config: 0.0 seconds
+[2026-06-12 22:05:11.049605] ** End: 2.7 seconds

@@ -1,0 +1,3 @@
+path search +$::env(PDK_ROOT)/sky130A/libs.tech/magic
+tech load sky130A -noprompt
+drc on

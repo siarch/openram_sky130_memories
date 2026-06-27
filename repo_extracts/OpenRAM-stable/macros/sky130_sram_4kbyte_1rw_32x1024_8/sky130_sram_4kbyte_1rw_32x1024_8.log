@@ -1,0 +1,55 @@
+[2026-06-10 11:37:56.023901] |==============================================================================|
+[2026-06-10 11:37:56.027841] |=========                      OpenRAM v1.2.49                       =========|
+[2026-06-10 11:37:56.030287] |=========                                                            =========|
+[2026-06-10 11:37:56.032531] |=========               VLSI Design and Automation Lab               =========|
+[2026-06-10 11:37:56.034709] |=========        Computer Science and Engineering Department         =========|
+[2026-06-10 11:37:56.036918] |=========            University of California Santa Cruz             =========|
+[2026-06-10 11:37:56.039016] |=========                                                            =========|
+[2026-06-10 11:37:56.051078] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2026-06-10 11:37:56.053209] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2026-06-10 11:37:56.055464] |=========                See LICENSE for license info                =========|
+[2026-06-10 11:37:56.057922] |==============================================================================|
+[2026-06-10 11:37:56.060351] ** Start: 06/10/2026 11:37:56
+[2026-06-10 11:37:56.062653] Technology: sky130
+[2026-06-10 11:37:56.064966] Total size: 32768 bits
+[2026-06-10 11:37:56.067090] Word size: 32
+Words: 1024
+Banks: 1
+[2026-06-10 11:37:56.069345] Write size: 8
+[2026-06-10 11:37:56.072072] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2026-06-10 11:37:56.074597] Netlist only mode (no physical design is being done, netlist_only=False to disable).
+[2026-06-10 11:37:56.077477] Design supply routing skipped. Supplies will have multiple must-connect pins. (route_supplies=True to enable supply routing).
+[2026-06-10 11:37:56.080130] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2026-06-10 11:37:56.082508] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2026-06-10 11:37:56.085269] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2026-06-10 11:37:56.088678] Only generating nominal corner timing.
+[2026-06-10 11:37:56.130952] Words per row: None
+[2026-06-10 11:37:56.133805] Output files are: 
+[2026-06-10 11:37:56.136600] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.lvs
+[2026-06-10 11:37:56.140140] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.sp
+[2026-06-10 11:37:56.143353] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.v
+[2026-06-10 11:37:56.146286] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.lib
+[2026-06-10 11:37:56.150546] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.py
+[2026-06-10 11:37:56.153651] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.html
+[2026-06-10 11:37:56.156560] /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.log
+[2026-06-10 11:38:06.575815] ** Submodules: 10.3 seconds
+[2026-06-10 11:38:06.581615] ** SRAM creation: 10.3 seconds
+[2026-06-10 11:38:06.590106] SP: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.sp
+[2026-06-10 11:38:07.439654] ** Spice writing: 0.9 seconds
+[2026-06-10 11:38:07.441926] DELAY: Writing stimulus...
+[2026-06-10 11:38:10.767978] ** DELAY: 3.3 seconds
+[2026-06-10 11:38:11.467798] LVS: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.lvs.sp
+[2026-06-10 11:38:12.149136] ** LVS writing: 0.7 seconds
+[2026-06-10 11:38:12.151098] LIB: Characterizing... 
+[2026-06-10 11:38:16.465897] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2026-06-10 11:38:16.469692] ** Characterization: 4.3 seconds
+[2026-06-10 11:38:16.488797] Config: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.py
+[2026-06-10 11:38:16.491010] ** Config: 0.0 seconds
+[2026-06-10 11:38:16.523249] Datasheet: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.html
+[2026-06-10 11:38:16.544752] ** Datasheet: 0.1 seconds
+[2026-06-10 11:38:16.546826] Verilog: Writing to /mnt/d/trae_projects/Sky130_Power/repo_extracts/OpenRAM-stable/macros/sky130_sram_4kbyte_1rw_32x1024_8/sky130_sram_4kbyte_1rw_32x1024_8.v
+[2026-06-10 11:38:16.551428] ** Verilog: 0.0 seconds
+[2026-06-10 11:38:16.560917] ** End: 20.5 seconds
