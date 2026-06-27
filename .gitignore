@@ -1,8 +1,22 @@
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.venv/
+venv/
+env/
 
 .dbg/
 tmp/
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
 
 CLAUDE.local.md
