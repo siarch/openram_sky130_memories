@@ -15,6 +15,8 @@ delivery packaging, with a current focus on 1RW and 1R1W memories.
 - [`scripts/`](scripts/)
 - [`deliverables/`](deliverables/)
 - [`CONTRIBUTING.md`](CONTRIBUTING.md)
+- [`SECURITY.md`](SECURITY.md)
+- [`SUPPORT.md`](SUPPORT.md)
 - [`LICENSE`](LICENSE)
 
 ## What This Repository Contains
@@ -98,6 +100,11 @@ for file in scripts/*.sh; do bash -n "$file"; done
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening pull requests.
 Use the provided issue templates and PR template so new work includes scope,
 evidence, and validation notes.
+
+## Support And Security
+
+- Support guidance: [SUPPORT.md](SUPPORT.md)
+- Security reporting policy: [SECURITY.md](SECURITY.md)
 
 ## License
 

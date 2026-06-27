@@ -27,6 +27,8 @@ jobs:
           test -f README.md
           test -f LICENSE
           test -f CONTRIBUTING.md
+          test -f SECURITY.md
+          test -f SUPPORT.md
           test -f .gitignore
           test -f .gitattributes
           test -f .editorconfig
@@ -43,6 +45,7 @@ jobs:
           grep -q '^## Getting Started' README.md
           grep -q '^## Typical Workflow' README.md
           grep -q '^## Contributing' README.md
+          grep -q '^## Support And Security' README.md
           grep -q '^## License' README.md
 
       - name: Check Python syntax
