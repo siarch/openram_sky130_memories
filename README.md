@@ -1,7 +1,20 @@
 # Sky130 Memory
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%2F%20Linux-blue)](README.md)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-openram__sky130__memories-181717?logo=github)](https://github.com/siarch/openram_sky130_memories)
+
 Utilities, configuration sets, extracted references, and delivery artifacts for
-SKY130 SRAM generation and packaging, with a current focus on 1R1W memories.
+SKY130 SRAM generation, real-area closure, multi-tool output organization, and
+delivery packaging, with a current focus on 1RW and 1R1W memories.
+
+## Quick Links
+
+- [Repository](https://github.com/siarch/openram_sky130_memories)
+- [`configs/`](configs/)
+- [`scripts/`](scripts/)
+- [`deliverables/`](deliverables/)
+- [`LICENSE`](LICENSE)
 
 ## What This Repository Contains
 
