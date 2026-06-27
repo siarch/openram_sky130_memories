@@ -42,8 +42,9 @@ jobs:
           test -f .editorconfig
           test -f .github/CODEOWNERS
           test -f .github/pull_request_template.md
-          test -f .github/ISSUE_TEMPLATE/bug_report.md
-          test -f .github/ISSUE_TEMPLATE/feature_request.md
+          test -f .github/ISSUE_TEMPLATE/config.yml
+          test -f .github/ISSUE_TEMPLATE/bug_report.yml
+          test -f .github/ISSUE_TEMPLATE/feature_request.yml
 
       - name: Validate README sections
         run: |
@@ -80,6 +81,10 @@ jobs:
           import yaml
 
           for path in Path("configs").glob("*.y*ml"):
+              with path.open("r", encoding="utf-8") as f:
+                  yaml.safe_load(f)
+              print(f"validated {path}")
+          for path in Path(".github/ISSUE_TEMPLATE").glob("*.yml"):
               with path.open("r", encoding="utf-8") as f:
                   yaml.safe_load(f)
               print(f"validated {path}")

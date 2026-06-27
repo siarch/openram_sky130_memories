@@ -1,0 +1,54 @@
+name: Feature request
+description: Propose a repository enhancement, workflow improvement, or docs addition
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the requested improvement.
+      placeholder: What should be improved?
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Explain the problem or maintenance gap this request addresses.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the preferred implementation or outcome.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: impacted
+    attributes:
+      label: Impacted areas
+      options:
+        - label: configs
+        - label: scripts
+        - label: deliverables
+        - label: docs
+        - label: GitHub workflow
+        - label: other
+
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation plan
+      description: Describe how the change should be checked once implemented.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add any extra context here.

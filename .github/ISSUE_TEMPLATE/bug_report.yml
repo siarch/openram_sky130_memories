@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a repository bug, workflow problem, or packaging regression
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the issue clearly.
+      placeholder: What is failing or behaving incorrectly?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - label: configs
+        - label: scripts
+        - label: deliverables
+        - label: docs
+        - label: GitHub workflow
+        - label: other
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: List the steps needed to reproduce the problem.
+      placeholder: |
+        1. Step one
+        2. Step two
+        3. Observe the issue
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Describe the expected result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Include logs, screenshots, command output, or file paths if available.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add any extra context here.
