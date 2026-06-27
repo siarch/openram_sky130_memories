@@ -26,9 +26,24 @@ jobs:
         run: |
           test -f README.md
           test -f LICENSE
+          test -f CONTRIBUTING.md
           test -f .gitignore
           test -f .gitattributes
           test -f .editorconfig
+          test -f .github/CODEOWNERS
+          test -f .github/pull_request_template.md
+          test -f .github/ISSUE_TEMPLATE/bug_report.md
+          test -f .github/ISSUE_TEMPLATE/feature_request.md
+
+      - name: Validate README sections
+        run: |
+          grep -q '^## Quick Links' README.md
+          grep -q '^## Current Scope' README.md
+          grep -q '^## Repository Layout' README.md
+          grep -q '^## Getting Started' README.md
+          grep -q '^## Typical Workflow' README.md
+          grep -q '^## Contributing' README.md
+          grep -q '^## License' README.md
 
       - name: Check Python syntax
         run: |

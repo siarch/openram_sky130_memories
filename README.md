@@ -14,6 +14,7 @@ delivery packaging, with a current focus on 1RW and 1R1W memories.
 - [`configs/`](configs/)
 - [`scripts/`](scripts/)
 - [`deliverables/`](deliverables/)
+- [`CONTRIBUTING.md`](CONTRIBUTING.md)
 - [`LICENSE`](LICENSE)
 
 ## What This Repository Contains
@@ -34,6 +35,49 @@ This repository is used to maintain SKY130 memory-related assets, including:
 - output organization for Design Compiler, Genus, VCS, Verdi, SpyGlass, and Tessent
 - bilingual delivery document generation and package refresh scripts
 
+## Repository Layout
+
+- `configs/`: input matrices for requested memories and remaining rerun batches
+- `scripts/`: operational automation for probing, recovery, packaging, and area backfill
+- `generated_openram_configs/`: historical OpenRAM config entry points
+- `generated_openram_power_configs/`: generated configs for power-oriented runs
+- `deliverables/`: packaged outputs, reports, manifests, and traceability artifacts
+- `repo_extracts/OpenRAM-stable/`: upstream reference tree kept for inspection and patching
+
+## Getting Started
+
+1. Review `AGENTS.md` and `CLAUDE.md` for project constraints and workflow expectations
+2. Pick or update a memory matrix under `configs/`
+3. Use the relevant helper under `scripts/` for generation, recovery, or packaging
+4. Inspect generated evidence and delivery artifacts under `deliverables/`
+
+## Common Tasks
+
+### Inspect Git status
+
+```bash
+git st
+git lg
+```
+
+### Validate local Python syntax
+
+```bash
+python -m compileall scripts generated_openram_configs generated_openram_power_configs
+```
+
+### Validate YAML matrix files
+
+```bash
+python -c "from pathlib import Path; import yaml; [yaml.safe_load(p.read_text(encoding='utf-8')) for p in Path('configs').glob('*.y*ml')]"
+```
+
+### Run shell syntax checks
+
+```bash
+for file in scripts/*.sh; do bash -n "$file"; done
+```
+
 ## Typical Workflow
 
 1. Prepare or update matrix entries in `configs/`
@@ -48,6 +92,12 @@ This repository is used to maintain SKY130 memory-related assets, including:
 - `CLAUDE.md` records project process guidance and recovery experience
 - `CLAUDE.local.md` is intentionally local-only and is ignored by Git
 - Historical delivery artifacts are kept in-repo for traceability
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening pull requests.
+Use the provided issue templates and PR template so new work includes scope,
+evidence, and validation notes.
 
 ## License
 
